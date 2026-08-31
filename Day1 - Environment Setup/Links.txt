@@ -1,0 +1,50 @@
+Environment setup
+
+1. git - this is very important
+	you will have 2 folders through tour ur learnings in 10 weeks
+	a. is a repo code - this is trainers folder, do not make any changes to this folder, this for code shared with you, if you wish copy the folder/code to other location and then edit/test
+
+	git clone https://github.com/nikhilshah85/25082026---.net-fullstack-AI-enabled-Developers.git
+
+
+	b. create a new folder at a location of your convenience  where you will code everyday, this is your own folder, you can create your own git and keep pushing your code here everyday
+
+
+	everyday we will have a new folder, day1-, day2, day3 day4-collections..... day16-EFand we will work in this folder
+
+2. vs code 
+	https://code.visualstudio.com/download?_exp_download=d53503e735
+
+
+3. .net framework(this is outdated) 
+	.net core - this is opensource and integrates all the standards, 
+	good with cloud, devOps, automation, cross-platform, ai, IOT lots of things, Microservices etc..
+
+	https://dotnet.microsoft.com/en-us/download/dotnet/10.0
+
+4. create a sample - getting started .net console application (also see how to create other applications)
+
+	.net core CLI (CLI stands command line interface)
+	create
+		dotnet new console --name firstapp
+		dotnet new mvc --name firstwebapp
+		dotnet new classlibrary --name firstlibrary
+		dotnet new webapi --name firstRESTAPIService
+	build
+		dotnet build (this will build the application - convert the text written code to MSIL)
+	test
+		dotnet test (this is a testing command, but we have written any test case in the project
+		so it will not give any result)
+	run
+		dotnet run
+	feel happy
+	(understand the structure)
+
+5. say bye 
+6. leave for the day
+
+
+
+
+
+
