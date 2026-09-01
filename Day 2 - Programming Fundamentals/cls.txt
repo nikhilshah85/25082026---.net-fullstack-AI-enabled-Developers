@@ -1,0 +1,16 @@
+C#
+
+int age = 10; (gets compiled to int32)
+
+
+VB
+
+dim age as Integer (gets compiled to int32)
+
+Typescript
+number age = 10; (gets compiled to int32)
+
+
+----- what .net does is 
+	when the build happens, the language compiler will convert it to a common language which is understood - which will be int32 - 4 bytes
+

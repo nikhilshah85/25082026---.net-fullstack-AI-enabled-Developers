@@ -1,0 +1,15 @@
+			We will want to understand what is going on in the background (.net core)
+
+			Ecosystem of .net 
+
+
+1. components of .net 
+2. compilation process (what happen when build happens)
+3. JIT - 
+4. (code) - 1 of the code activity - file input and output
+
+
+
+
+
+				

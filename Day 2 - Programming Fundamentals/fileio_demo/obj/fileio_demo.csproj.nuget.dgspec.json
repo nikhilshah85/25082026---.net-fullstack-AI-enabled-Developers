@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 2 - Programming Fundamentals\\bankingapp\\bankingapp.csproj": {}
+    "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 2 - Programming Fundamentals\\fileio_demo\\fileio_demo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 2 - Programming Fundamentals\\bankingapp\\bankingapp.csproj": {
+    "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 2 - Programming Fundamentals\\fileio_demo\\fileio_demo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 2 - Programming Fundamentals\\bankingapp\\bankingapp.csproj",
-        "projectName": "bankingapp",
-        "projectPath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 2 - Programming Fundamentals\\bankingapp\\bankingapp.csproj",
+        "projectUniqueName": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 2 - Programming Fundamentals\\fileio_demo\\fileio_demo.csproj",
+        "projectName": "fileio_demo",
+        "projectPath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 2 - Programming Fundamentals\\fileio_demo\\fileio_demo.csproj",
         "packagesPath": "C:\\Users\\nikhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 2 - Programming Fundamentals\\bankingapp\\obj\\",
+        "outputPath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 2 - Programming Fundamentals\\fileio_demo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
