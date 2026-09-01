@@ -1,0 +1,52 @@
+Task:
+create a new console application - EmployeeManagement
+cw('''''welcome message");
+upon starting the application, user will see 3 options
+a. admin
+b. employee
+c. guest
+when a is selected display 
+	a. Create new employee
+	b. Change employee details
+	c. Announce Activity
+	d. Delete Employee
+	e. View All employees
+	f. Back to previous menu
+	g. exit
+when b is selected display
+	a. view my details
+	b. apply leave
+	c. submit reimbursement
+	d. view project details
+	e. view todays task and activities
+	f. Previous menu
+	g. exit
+when c is selected
+	a. About the organization
+	b. View Open Positions
+	c. contact information
+	d. previous menu
+	e. exit
+---------------------------------------
+as of now any user is able to perform any activity, rather for the skeleton ,lets validate the user
+	so when user choosed a, ask to enter username and password - if 
+						username : revadmin
+						password : revadmin$123#
+			display the menu else display invalid credentials, press enter to continue and display the main menu
+				a. admin
+				b. employee
+				c. guest
+	when user chooses B, ask for username and pwd
+						username : revemp2409
+						password : revadmin$123#emp
+					go ahead
+				else main menu
+							
+			Short refresher break - 10 mins
+
+
+
+
+
+
+

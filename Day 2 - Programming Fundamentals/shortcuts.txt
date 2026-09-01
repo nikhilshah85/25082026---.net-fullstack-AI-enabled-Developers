@@ -1,0 +1,8 @@
+We will make sure, we write neat and clean cold, which will be very easy to maintain, make changes and understand
+
+a. comment - crtl + K + C
+b. uncomment - ctrl + K + U
+c. terminal - ctrl + `
+
+
+1.Priya Kuppan - for revpro access - Joaquin Camaran

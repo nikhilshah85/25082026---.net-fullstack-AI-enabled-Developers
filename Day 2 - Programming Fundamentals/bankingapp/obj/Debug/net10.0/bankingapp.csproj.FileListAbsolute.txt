@@ -1,0 +1,15 @@
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\bankingapp\bin\Debug\net10.0\bankingapp.exe
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\bankingapp\bin\Debug\net10.0\bankingapp.deps.json
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\bankingapp\bin\Debug\net10.0\bankingapp.runtimeconfig.json
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\bankingapp\bin\Debug\net10.0\bankingapp.dll
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\bankingapp\bin\Debug\net10.0\bankingapp.pdb
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\bankingapp\obj\Debug\net10.0\bankingapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\bankingapp\obj\Debug\net10.0\bankingapp.AssemblyInfoInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\bankingapp\obj\Debug\net10.0\bankingapp.AssemblyInfo.cs
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\bankingapp\obj\Debug\net10.0\bankingapp.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\bankingapp\obj\Debug\net10.0\bankingapp.sourcelink.json
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\bankingapp\obj\Debug\net10.0\bankingapp.dll
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\bankingapp\obj\Debug\net10.0\refint\bankingapp.dll
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\bankingapp\obj\Debug\net10.0\bankingapp.pdb
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\bankingapp\obj\Debug\net10.0\bankingapp.genruntimeconfig.cache
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\bankingapp\obj\Debug\net10.0\ref\bankingapp.dll

@@ -1,0 +1,15 @@
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\bin\Debug\net10.0\fundamentals.exe
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\bin\Debug\net10.0\fundamentals.deps.json
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\bin\Debug\net10.0\fundamentals.runtimeconfig.json
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\bin\Debug\net10.0\fundamentals.dll
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\bin\Debug\net10.0\fundamentals.pdb
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\obj\Debug\net10.0\fundamentals.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\obj\Debug\net10.0\fundamentals.AssemblyInfoInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\obj\Debug\net10.0\fundamentals.AssemblyInfo.cs
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\obj\Debug\net10.0\fundamentals.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\obj\Debug\net10.0\fundamentals.sourcelink.json
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\obj\Debug\net10.0\fundamentals.dll
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\obj\Debug\net10.0\refint\fundamentals.dll
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\obj\Debug\net10.0\fundamentals.pdb
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\obj\Debug\net10.0\fundamentals.genruntimeconfig.cache
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\fundamentals\obj\Debug\net10.0\ref\fundamentals.dll

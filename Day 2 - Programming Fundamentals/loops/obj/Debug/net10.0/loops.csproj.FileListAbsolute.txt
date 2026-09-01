@@ -1,0 +1,15 @@
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\loops\bin\Debug\net10.0\loops.exe
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\loops\bin\Debug\net10.0\loops.deps.json
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\loops\bin\Debug\net10.0\loops.runtimeconfig.json
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\loops\bin\Debug\net10.0\loops.dll
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\loops\bin\Debug\net10.0\loops.pdb
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\loops\obj\Debug\net10.0\loops.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\loops\obj\Debug\net10.0\loops.AssemblyInfoInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\loops\obj\Debug\net10.0\loops.AssemblyInfo.cs
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\loops\obj\Debug\net10.0\loops.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\loops\obj\Debug\net10.0\loops.sourcelink.json
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\loops\obj\Debug\net10.0\loops.dll
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\loops\obj\Debug\net10.0\refint\loops.dll
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\loops\obj\Debug\net10.0\loops.pdb
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\loops\obj\Debug\net10.0\loops.genruntimeconfig.cache
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 2 - Programming Fundamentals\loops\obj\Debug\net10.0\ref\loops.dll
