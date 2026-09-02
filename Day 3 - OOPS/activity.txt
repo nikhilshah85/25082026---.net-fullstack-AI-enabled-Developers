@@ -1,0 +1,20 @@
+1. For those who did C# for the first time
+	a. practice the code once again
+	b. create a new application - employeeManagement
+	here create a class Employee, add any 5 important properies of your choice
+	 			      add 2 methods releavant to what you think your emp app should have
+				create object of the same and test it
+
+
+2. For those who understands OOPS and language 
+	create a new application - employeeManagement
+	here create a class Employee, add any 5 important properies of your choice
+	 			      add 2 methods releavant to what you think your emp app should have
+				create object of the same and test it
+
+
+3. For Everyone after above activity is finished 
+		I want everyone, to finish this series on youtube as soon as possible
+			By making notes
+
+	https://www.youtube.com/playlist?list=PLAC325451207E3105
