@@ -1,0 +1,38 @@
+Task 
+
+1. I want you to write a code, which will just have 1 variable
+	eg. counter = 1
+
+	when ever u run the program, couter will increment
+	1, 2, 3, 4, 5, 6, 7, 8, 9  ..........
+
+		just display that number on console
+
+	hint/suggestion, 
+	user fileio, when u run the program, read the number from the file and dislay it
+	increment the number, 
+	store it back to the file
+
+2. Create an console app, guestManagement, 
+	when the application starts 
+	"Welcome to guest management system"
+	a. New Guest
+	b. View Guest Details
+
+	when a
+	ask for below detail
+	name, lastname, email, phoneno, social security number
+
+	we will need to store this guest info (and every guest after this) in a file 
+		(separate file for every guest)
+	filename will be sscno.txt
+
+	when b
+	Please enter SSNno 
+		display the details
+
+
+
+
+
+

@@ -1,0 +1,168 @@
+						OOPS
+				Object Oriented Programming Structure
+				+
+				Design patters
+				+
+				SOLID Principles
+				+
+				coding standards
+
+-------------------------------------------------------------------------------------------------------------
+			Object = everything
+				what is it made up of
+				
+				variables			
+				properties
+				methods/function (behaviour/reatction)
+					Withdraw
+				constructors
+				events
+				enums - enumaerations - for some properties we will want to have only selected values which are predefined
+			eg
+			
+			gender = can be only Male, female, gender
+			vehicleType = Car, Bike, Truck, Jeep, cycle
+
+			FileAccess = 
+			What is an object
+			it is an Real World Entity
+
+			Developers needs to design the object
+
+			so how do u design 
+
+			it is called as a Blueprint
+
+		in programming you get that paper in form of a file (.cs, .cpp, .c, .java, .py, .ipynb)
+
+		and inside that file you will start to design in a class
+
+			a class is your blueprint
+
+---------------------------------------------------------------------------------------------------
+		Object 1.1
+
+
+		To design a class (blueprint) there proven 4 pillars which makes it as Oriented Programming
+
+			4 pillars
+				abstraction
+				encapsulation
+				inheritance
+				polymorphism
+
+
+		a. Abstraction - while designing an object(blueprint), consider only those artifact which 					falls under the scope of an application
+
+				eg. Properties
+
+
+		b. Encapsulation - Create software/code/algo which is very easy to use, but very very very difficult to understand how it works
+		so thats why we do not use variables, rather we wrap variables in a 
+			property - called as getter and setter
+
+		//this is the design - blueprint
+		public class Employee
+		{				//variable (this is the secret no one should know)
+			double salary = 0; // we dont silly say this as salary but a differny name
+				
+				//property for tht variable
+				Public double EmployeeSalary
+				{
+					get
+					{
+						return salary;
+					}
+					set
+					{
+						salary = value;
+					}
+
+				}
+
+				
+			
+				public double Withdraw(int amount)
+				{
+					...may be so lines
+				}
+			
+		}
+
+			Employee emp = new Employee(); /// this is the object
+			emp.EmployeeSalary = 2000;
+			emp.Withdraw(200);
+				
+
+		3. Inheritance - reuse 
+			when you have to design / create classes which are of similar category and will have common properties(lets say 10 properties) and common methods(may be 4-5 heavy methods)
+
+			you create a master class
+				and inherit it to child classes
+
+
+		public class Accounts
+		{
+				property1
+				property2
+				property3
+				property4
+				property5
+
+				withdraw()
+				deposit()
+
+		}
+
+
+		public class Savings : Accounts
+		{
+			property6
+
+		}
+
+		Savings sav1 = new Savings();
+		sav1.
+
+
+		d. polymprphism
+			when child classes from same parent will behave different with the same Object
+			you implement polymorphism
+
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

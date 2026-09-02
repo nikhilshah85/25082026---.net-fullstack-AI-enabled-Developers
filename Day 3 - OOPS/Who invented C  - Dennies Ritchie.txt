@@ -1,0 +1,12 @@
+Who invented C ? - Dennies Ritchie
+
+C + OOPS = C++
+Who invented C++ ? - Bjarne Stroustrup
+		if you read his book on C++ with OOPS
+		there is a an interview where he says Poliymorphism is only runtime
+
+
+	C++  - Anders Hejlsberg
+         ++
+
+

@@ -1,0 +1,16 @@
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\open1-19.ps1
+
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\open20-30.ps1
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\open301-315.ps1
+
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\open316-330.ps1
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+.\open331-350.ps1

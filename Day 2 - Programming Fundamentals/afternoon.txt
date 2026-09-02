@@ -8,6 +8,42 @@
 3. JIT - 
 4. (code) - 1 of the code activity - file input and output
 
+	how to create the file
+	how to read the file
+	how to write into a file
+
+-------------------------------------------------------------------------------------------
+				System.IO
+
+
+
+	Filestream			networkstream			memorystream
+
+
+		Filestream myFile = new FileStream("filename",fileaccess., filemode.);
+		StreamReader (when u want to read from file)
+		StreamWriter (when u want to write into the file)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
