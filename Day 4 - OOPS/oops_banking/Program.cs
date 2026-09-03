@@ -1,7 +1,7 @@
 ﻿
 
 using Banking;
-
+using MyCalculations;
 // Accounts acc = new Accounts();
 
 //this is the older way of createing an object
@@ -16,27 +16,33 @@ sav.AccountHolderName = "Nikhil";
 sav.IsAccActive = true;
 
 //thus MS gave us a new way
-Savings sav2 = new Savings()
-{
-     AccountNumber=102, 
-     AccountBalance =12000,
-     AccountHolderName = "Peter Parker",
-     AccountType = TypeOfAccount.Savings,
-    IsAccActive = false 
-};
+// Savings sav2 = new Savings()
+// {
+//      AccountNumber=102, 
+//      AccountBalance =12000,
+//      AccountHolderName = "Peter Parker",
+//      AccountType = TypeOfAccount.Savings,
+//     IsAccActive = false 
+// };
 
-Console.WriteLine("Avaialable Balance " + sav.AccountBalance);
-try
-{
-sav.Withdraw(3000);
-}
-catch(Exception es)
-{
-    Console.WriteLine(es.Message);
-}
-Console.WriteLine("Avaialable Balance " + sav.AccountBalance);
+// Console.WriteLine("Avaialable Balance " + sav.AccountBalance);
+// try
+// {
+// sav.Withdraw(3000);
+// }
+// catch(Exception es)
+// {
+//     Console.WriteLine(es.Message);
+// }
+// Console.WriteLine("Avaialable Balance " + sav.AccountBalance);
 
+Calculation cal = new Calculation();
 
+// cal.Add(10,20,39,40);
+cal.Add("Mary","Jane");
+
+int additions =  cal.Add(10,20,1,2,3,4,5,66,77,88,99,5,4,3,6,3,4,4,4,4,4,4,4,4,4,4);
+Console.WriteLine(additions);
 
 
 
