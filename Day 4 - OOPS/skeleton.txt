@@ -1,0 +1,21 @@
+additions :
+	implement a skeleton around the code
+when you start the application, 
+	Show options
+		a. create new account
+		b. check balance
+		c. exit
+
+		when user selects a
+			display
+				a. Savings
+				b. Checking
+				c. Loans
+				d. back (to previous menu)
+create a new account, ask the details, store the account information in accno.txt
+
+
+								Lunch 1:10 - 2:20(ET)
+
+	
+

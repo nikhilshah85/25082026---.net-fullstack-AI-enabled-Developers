@@ -1,0 +1,20 @@
+1. Classes
+	Public (normal class)
+	Public (Abstract class)
+	Public Sealed class (
+	Public Static class
+
+
+			Accounts
+				--> Loans
+					 -->Vehicle
+						    --> Car
+							   -->
+								SUV (we do not want this class to be further inherited)				
+									-- stop inheritance	
+				thus we can mark this class as sealed
+
+					public sealed class SUV
+					{}
+
+			

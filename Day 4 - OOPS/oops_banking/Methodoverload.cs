@@ -1,7 +1,7 @@
 namespace MyCalculations
 {
 
-    public class Calculation
+    public   class Calculation
     {
         // public int Add(int num1, int num2)
         // {
@@ -40,6 +40,11 @@ namespace MyCalculations
         }
 
 
+    }
+
+    public class HighValueSmartCalculation : Calculation
+    {
+        
     }
 
 
