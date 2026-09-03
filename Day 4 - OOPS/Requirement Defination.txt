@@ -1,0 +1,31 @@
+Requirement
+
+	We want to have an banking application
+		which will allow user to open a new account
+			a. Savings
+			b. Checking (
+			c. Loan
+
+		all the accoutns will have details
+			accNo 
+			accName 
+			accType 
+			accBalance 
+			accIsActive
+			accIsODEnabled (checking only)
+
+		we can add more details later as the application grows
+
+
+		every account holder should be able to able to 
+			withdraw money(expect loan)  - For Savings - max withdrawal can be 5k, provided has enough balance 
+			                             - For Checking - max withdrawal can be 30k, allow withdraw upto -30K if OD is enabled)
+						     - Withdrawal not allowed for loan accounts
+			deposit money - same copy - same logic - same rules are for all the child accounts
+
+			check_availabebalance
+
+			
+-------------
+	plan, we will create a master class and put all the common functionalities here (properties, methods, validations, etc...)
+			and then inherit to childrens

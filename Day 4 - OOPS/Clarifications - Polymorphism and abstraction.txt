@@ -1,0 +1,87 @@
+
+
+
+
+1. Polymorphism
+	Different behavious for the same cause
+
+		Draw
+
+
+	lots of books, blogs they describe - there are 2 types of polymorphism 
+		a. compile time (clarified this is a feature of compilers called name mangling)
+			2 classes - savings - withdraw (xb101_withdraw)
+				    checking  - withdraw (zh_withdraw)
+
+			some books / blogs
+			they say below code as polymprhic as well - (but this is a feature called method overloading)
+	
+			public int Add(int num1, int num2)
+			{
+				return num1 + num2;
+			}
+
+			public int Add(int num1, int num2, int num3)
+			{
+				return num1 + num2 + num3;
+			}
+
+
+			
+		b. runtime 
+			at runtime / execution time 
+				savings - withdraw (20,000) = max allowed 5,000
+				checking  - withdraw (30,000) = allowed
+
+
+		Accounts (parent)
+			public virtual int withdraw(int amount)
+			{
+				return availableBalance;
+			}
+
+
+		Savings(child)
+			public overriding int withdraw(int amount)
+			{
+				if(amount > 5000)
+				{
+					throw new Exception("Sorry you can withdraw max 5000);
+				}
+					
+			}
+		
+		Checking(child)
+			public overriding int withdraw(int amount)
+			{
+				if(amount > 30000)
+				{
+					throw new Exception("Sorry you can withdraw max 30000);
+				}
+					
+			}
+
+	
+
+-------------------------------------------------------------------------------------------------------------
+	Abstraction	(this is a process to design a class, what are the important required members)
+		we have different types of classes as well
+			Abstract class, Sealed class, Static class, 
+		
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
