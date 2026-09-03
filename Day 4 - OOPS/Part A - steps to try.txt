@@ -1,0 +1,24 @@
+
+
+
+
+
+
+
+
+							1 Hour activity for OOPS Part A
+
+
+	1. create a new console application
+	2. add 4 .cs files
+			Accounts, Savings, Checking, Loans
+
+	while imletemnting refer to the code I uploaded on git
+	3. in each file create appropriate classes under a namespace
+	4. in Accounts file, under the accounts class, add properties and methods
+	5. inherit this class to savings, checking and loans
+
+	6. in program.cs 
+		create a new account 1 by 1 (savings, checking and current)
+		assign proper properties with values, execute the methods (mainly withdraw, to see polymorphic behaviour)
+	
