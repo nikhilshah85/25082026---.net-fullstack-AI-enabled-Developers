@@ -79,6 +79,7 @@
 ----------------------
 			Dictionary
 
+			A better version of hash table in terms of performance and memory management
 
 
 
