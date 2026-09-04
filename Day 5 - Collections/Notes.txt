@@ -1,0 +1,104 @@
+					Collections
+
+		Array
+		ArrayList
+		List
+		Dictionary
+		Hashtables
+		
+		ques
+		Stack
+		linkedlist
+		etc...
+-------------------------------------------------------------------------------------
+					LINQ with collections
+
+
+
+
+		When you want to store and manage 
+		multiple-related values of same type values(string,int, object) in a variable
+
+		we can use collection
+
+		for all the collections, they store value as Index
+			so the first value is always accessed as [0]
+
+
+		1. Array - this is for primitive data types
+			string[] friends = new string[5];
+			friends[0] = "Peter";
+			friends[1] = "Osborn";
+			friends[2] = "Mary";
+			friends[3] = "Nikhil";
+			friends[4] = "Tom";
+
+			console.writeline(friends[2]);
+
+
+
+		Problems
+		a. with array - we need to specify the number of values we need to store
+			so lets say if user says 10 int values (10 * 4 bytes = 40 bytes is reserved at the 				start of the program)
+
+				but if user is going to use only 7 values
+					this will waste 3 spaces of 4 bytes each = 12 bytes
+
+				also if user wants to store 14 values !!
+
+		b. we also need to have the type defined, i.e we created string array, we cannot store 				other data types
+
+-------------------------------------------
+				ArrayList
+
+			here we not specify the type as well as size
+		
+			problem. 
+			everytime we store or update the data, it uses boxing and unboxing, which affects the performance of application
+
+			---use this when you do not know the type of data
+
+		but if you know the type of data, you can use the next collection
+
+-------------------------------------------
+			List (the most used collection in industry, because of performance)
+				you need to know the type of data
+			
+			this comes from System.Collection.Generics; -- 
+				they recommed this for neat memory management and performance 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
