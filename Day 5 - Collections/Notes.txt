@@ -67,6 +67,17 @@
 			this comes from System.Collection.Generics; -- 
 				they recommed this for neat memory management and performance 
 
+-----------------------
+			All of the above collections can store duplicate values
+
+			Thus we have Hashtable which stores the data in key and a value pair
+		
+			Hashtable stores key and value in an object format like arraylist
+
+		thus we are been given a better version of hashtable, which is to be used when you know your datatypes for key and value
+
+----------------------
+			Dictionary
 
 
 
@@ -84,7 +95,7 @@
 
 
 
-
+	
 
 
 
