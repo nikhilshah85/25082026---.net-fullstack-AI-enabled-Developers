@@ -1,0 +1,7 @@
+1.What is the minimum salary paid ?
+2.what is the maximum ?
+3.total number of employees in dept 20 ?
+4.average salary paid to non permenant employees
+5.average pay in dept no 30
+6. employees having "ar" in middle of their name (anywhere)
+7. employees having a as second character in their name 

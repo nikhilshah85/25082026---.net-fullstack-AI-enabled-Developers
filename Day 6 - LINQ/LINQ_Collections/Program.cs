@@ -1,8 +1,6 @@
 ﻿
 using EmployeeManagement;
 
-
-
 List <Employee> eList = new List<Employee>()
 {
     new Employee(){ empNo=101, empName="Tom",  empDepartmentNo=10, empIsPermenant=true, empSalary=1000},
@@ -27,8 +25,6 @@ List <Employee> eList = new List<Employee>()
     new Employee(){ empNo=120, empName="Anthony",  empDepartmentNo=40, empIsPermenant=false, empSalary=20000},
 
 };
-
-
 // LINQ
 
 //linq starts with var keyword on the left, it is a keyword, not a variable
@@ -138,5 +134,64 @@ List <Employee> eList = new List<Employee>()
 
 // Console.WriteLine("Total Employees are : " + totalemp);
 
+
+#endregion
+
+#region  9 - Aggregate function
+//this are called as aggregate functions
+//sum() 
+//min()
+//max()
+//count()
+//average() - avg()
+
+// var minSal = (from e in eList
+//             select e.empSalary).Min();
+
+// Console.WriteLine(minSal);
+#endregion
+
+#region 10 - Calculations
+
+
+// var calculated = from e in eList
+//                  select new
+//                  {
+//                      Employee_Name = e.empName,
+//                      Monthly_Salary = e.empSalary.ToString("C",new System.Globalization.CultureInfo("ar-AE")),
+//                      Annual_Salary = e.empSalary * 12,
+//                      Bonus = e.empSalary * 0.2,
+//                      Allowance = 200
+//                  };
+// foreach (var item in calculated)
+// {
+//     Console.WriteLine("Employee Name : " + item.Employee_Name);
+//     Console.WriteLine("Monthly Sal : " + item.Monthly_Salary);    
+//     Console.WriteLine("Annual Pay  : "  + item.Annual_Salary);    
+//     Console.WriteLine("Bonus       : " + item.Bonus);    
+//     Console.WriteLine("Allowance   : " + item.Allowance);    
+//     Console.WriteLine("----------------------------------------");
+// }
+
+
+#endregion
+
+#region 11 - Group By
+// var employmentSummary = eList.GroupBy(e => e.empDepartmentNo);
+// foreach (var item in employmentSummary)
+// {
+//     Console.WriteLine(item.Key + " : " + item.Count()); //this will print the unique department numbers
+    
+//     foreach (var f in item)
+//     {
+//         Console.WriteLine(f.empNo + " " + f.empName);
+//     }
+//     Console.WriteLine("----------------------------------------");
+// }
+#endregion
+
+#region 12 - Lambda
+
+// var totalSal = eList.Sum(e => e.empSalary);
 
 #endregion
