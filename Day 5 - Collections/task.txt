@@ -1,0 +1,26 @@
+
+
+
+create a new application, collection_good_task
+1. add a new class, SavingsAccount
+	add 5 properies to it
+			accNo, accName, accBalance, accIsActive, accBranchNo
+2. create a list of SavingsAccount with 15 objects in it, use real values (no abc/xyz), yu can hardcode this.
+3. when the application starts display
+	1. Add New Account (ask details and add it to the list)
+	2. View AccountDetails (display all account details, table or lables(1 I used in my demo) anyway)
+	3. View Account (ask accNo and display its detail)
+	4. Withdraw (ask accNo, amount to withdraw, and deduct the baclance from that acc, display new bal)
+	5. Deposit (ask accNo, amount to deposit, and add to baclance of that acc, display new bal)
+	6. Transfer (ask from acc, to acc, amount, and update both accsbal with the amount)
+	7. Summary
+		a. total accounts
+		b. Total Balance with bank(total of accBalance for all accounts)
+		c. Total Active Accs
+		d. Total Inactive Accs
+		e. Back		
+	6. Exit
+
+
+
+
