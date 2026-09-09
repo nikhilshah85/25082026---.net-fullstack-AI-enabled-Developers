@@ -1,0 +1,151 @@
+1. Database 
+2. Entity framework (this is a drive - framework - api - to communicate with database)
+3. .net core app - using above for CRUD operations
+
+---------a small mini fullstack console application
+
+1. connect to sql server(windows auth)
+	a. create a new database
+		create database employeeManagementDB
+		use employeeManagementDB;
+
+	b. create a new table and insert some sample records here
+		create table depts
+		(
+			deptNo int primary key,
+			deptName varchar(20),
+			deptLocation varchar(20)
+		)
+
+		insert into depts values(10,'HR','Texas');
+		insert into depts values(20,'Accounts','New York');
+		insert into depts values(30,'Training','San Francisco');
+		insert into depts values(40,'IT','Vegas');
+
+		create table employees
+		(
+			empNo int primary key,
+			empName varchar(30),
+			empDesignation varchar(20),
+			empSalary int,
+			empIsPermenant bit,
+			empDept int,
+			constraint fk_empDept foreign key (empDept) references depts		
+		)
+	
+		insert into employees values(1,'Peter','Developer',3000,1,40);		
+		insert into employees values(2,'Mary','Trainer',4000,1,30);		
+		insert into employees values(3,'Raj','Accountant',5000,1,20);		
+		insert into employees values(4,'Monica','Sr.Accountant',8000,1,20);		
+		insert into employees values(5,'Penny','Sr.Hr',3100,0,10);		
+		insert into employees values(6,'Leonard','Developer',12000,1,40);		
+		insert into employees values(7,'Sheldon','Developer',13000,1,40);		
+		insert into employees values(8,'Mike','Hr Manager',4000,1,10);		
+		insert into employees values(9,'Tyson','Developer',8000,0,10);		
+		insert into employees values(10,'Murray','Sr.Trainer',9000,1,30);		
+		insert into employees values(11,'Peter','Developer',13000,0,40);		
+		insert into employees values(12,'Julie','HR Associate',5000,1,10);
+
+
+2. create a new console application - empAPP
+	dotnet new console --name empAPP
+
+3. install ef core sql server package (because we are working with sql server)
+	dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+
+
+
+4. install ef core designer package
+	dotnet add package Microsoft.EntityFrameworkCore.Design
+
+5. install ef core cli (this needs to be done only 1ce per machine)
+	dotnet tool install --global dotnet-ef
+
+6. test the version and installation of ef core cli
+	dotnet ef  
+
+7. ready the connection string to server
+		(this is for server authentication)
+	server=;database=;username=;password=;trustservercertificat=true
+ 		(this is for windows authentication)
+	server=;database=;Trusted_Connection=true;trustservercertificat=true
+
+
+	server=NIKHILPC\MUMBAISERVER;database=employeeManagementNewDB;Trusted_Connection=true;trustservercertificat=true
+
+
+8. we are now set to scaffold the database to application
+		     (map)
+	we will now get a presence of database into our application
+		database = dbContext (we will get a class called dbContext)
+		tables = dept.cs and empoyees.cs (this are mapping to our tables and views)
+				this classes will have properties mapped to columns in table
+
+
+
+	========================================================================================================
+	dotnet ef dbcontext scaffold "connection string" Microsoft.EntityFrameworkCore.SqlServer --output-dir DB
+
+	========================================================================================================
+
+
+dotnet ef dbcontext scaffold "server=NIKHILPC\MUMBAISERVER;database=employeeManagementNewDB;Trusted_Connection=true;trustservercertificat=true" Microsoft.EntityFrameworkCore.SqlServer --output-dir DB
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
