@@ -89,7 +89,7 @@
 	========================================================================================================
 
 
-dotnet ef dbcontext scaffold "server=NIKHILPC\MUMBAISERVER;database=employeeManagementNewDB;Trusted_Connection=true;trustservercertificat=true" Microsoft.EntityFrameworkCore.SqlServer --output-dir DB
+dotnet ef dbcontext scaffold "server=NIKHILPC\MUMBAISERVER;database=employeeManagementNewDB;Trusted_Connection=true;trustservercertificat=true" Microsoft.EntityFrameworkCore.SqlServer --output-dir DB --force
 
 	
 
