@@ -1,3 +1,0 @@
-Serialization is a process to Persist(save) the object from memory into a storage
-
-Deseialization is a process to get the object in original state from storage into memory

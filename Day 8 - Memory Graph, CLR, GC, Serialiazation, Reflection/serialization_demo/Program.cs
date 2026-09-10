@@ -13,6 +13,7 @@
 Employee empObj = Employee.LoadObject();
 
 
+
 bool continueWork = true;
 while(continueWork)
 {
@@ -59,6 +60,8 @@ Console.WriteLine("4. Exit");
                 break;
         }
 
+
+    
 
 
 }

@@ -1,0 +1,12 @@
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\bankLIB\bin\Debug\net10.0\bankLIB.deps.json
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\bankLIB\bin\Debug\net10.0\bankLIB.dll
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\bankLIB\bin\Debug\net10.0\bankLIB.pdb
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\bankLIB\obj\Debug\net10.0\bankLIB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\bankLIB\obj\Debug\net10.0\bankLIB.AssemblyInfoInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\bankLIB\obj\Debug\net10.0\bankLIB.AssemblyInfo.cs
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\bankLIB\obj\Debug\net10.0\bankLIB.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\bankLIB\obj\Debug\net10.0\bankLIB.sourcelink.json
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\bankLIB\obj\Debug\net10.0\bankLIB.dll
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\bankLIB\obj\Debug\net10.0\refint\bankLIB.dll
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\bankLIB\obj\Debug\net10.0\bankLIB.pdb
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\bankLIB\obj\Debug\net10.0\ref\bankLIB.dll

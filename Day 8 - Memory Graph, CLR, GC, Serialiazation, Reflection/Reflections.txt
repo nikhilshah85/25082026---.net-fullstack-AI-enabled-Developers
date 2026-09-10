@@ -1,0 +1,63 @@
+				Reflections
+
+reflections is used for 2 purpose
+
+	
+
+1. To explore the metadata from an .dll or .exe
+	want to know what are the Namespaces in this exe/dll
+	what are the classes
+	What are the properties
+	What are the list of methods
+	What are the list of parameters?
+	What are constructors 
+	What are the list of Enum
+
+	By using system.runtime.reflection
+
+2. To create the object at runtime, by user choice
+	eg. if my bankingLib has 200 classes / types of accounts
+		very bad programming to use if conditions or switch case
+
+		if we want to remove / discontinue some accounts we will have to make changes to exe/dll
+		if we want to add  new account we will have to do the same
+
+		this is not possible
+
+		user can choose which account they want to create, select it and create the object at runtime
+		
+	-------
+	both the above is achived using System.Runtime.Reflection
+
+		we will need to load the dll/exe in our app domain and as per program we can us
+		Assembly.Load(...path of the dll to be loaded..._)
+
+
+		for the 2nd 1 we have a class 
+			Activator.createInstance(typeof(classname))
+
+			
+			Activator.createInstance(typeof(Savings))
+
+			(in the memory, it will write a code for me which is 
+				Savings obj = new Savings();
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

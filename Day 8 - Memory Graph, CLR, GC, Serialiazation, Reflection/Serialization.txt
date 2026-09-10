@@ -1,0 +1,16 @@
+Serialization is a process to Persist(save) the object from memory into a storage
+
+Deseialization is a process to get the object in original state from storage into memory
+
+-----------------
+	Types of serialization
+	
+	1. Binary serialization - stores the object in binary format
+		BinaryFormatter
+	2. XMLSerializer - stores the object in XML format
+		XMLSerializer
+	3. JSONSerializer - stores the object in json format - this is the format for REST API
+
+	4. SOAPFormatter - stored the object in xml based SOAP format for web services
+
+-----------------------------
