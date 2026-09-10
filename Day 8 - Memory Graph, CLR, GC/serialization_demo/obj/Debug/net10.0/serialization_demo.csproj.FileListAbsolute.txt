@@ -1,0 +1,15 @@
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\serialization_demo\bin\Debug\net10.0\serialization_demo.exe
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\serialization_demo\bin\Debug\net10.0\serialization_demo.deps.json
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\serialization_demo\bin\Debug\net10.0\serialization_demo.runtimeconfig.json
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\serialization_demo\bin\Debug\net10.0\serialization_demo.dll
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\serialization_demo\bin\Debug\net10.0\serialization_demo.pdb
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\serialization_demo\obj\Debug\net10.0\serialization_demo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\serialization_demo\obj\Debug\net10.0\serialization_demo.AssemblyInfoInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\serialization_demo\obj\Debug\net10.0\serialization_demo.AssemblyInfo.cs
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\serialization_demo\obj\Debug\net10.0\serialization_demo.csproj.CoreCompileInputs.cache
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\serialization_demo\obj\Debug\net10.0\serialization_demo.sourcelink.json
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\serialization_demo\obj\Debug\net10.0\serialization_demo.dll
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\serialization_demo\obj\Debug\net10.0\refint\serialization_demo.dll
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\serialization_demo\obj\Debug\net10.0\serialization_demo.pdb
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\serialization_demo\obj\Debug\net10.0\serialization_demo.genruntimeconfig.cache
+C:\Users\nikhi\OneDrive\Desktop\25082026---.net-fullstack-AI-enabled-Developers\Day 8 - Memory Graph, CLR, GC\serialization_demo\obj\Debug\net10.0\ref\serialization_demo.dll

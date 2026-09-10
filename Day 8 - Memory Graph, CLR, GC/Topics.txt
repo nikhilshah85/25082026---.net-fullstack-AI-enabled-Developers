@@ -1,0 +1,10 @@
+1. memory stack (what happened when u said .net run)
+2. components of .net runtime (GC, threads, task, async etc...)
+3. GC is detail, 
+
+
+1. serialization
+2. reflection
+
+
+		short break till 11:30

@@ -1,0 +1,7 @@
+we have azure - cloud fundamentals session - project 3 to be hosted on azure
+
+thus will need azure subscription
+
+Microsoft give 30 days free trail subscription with 200$ usage, more than enough
+
+for this you will need to create a new outlook/Hotmail and attach a credit card to it 

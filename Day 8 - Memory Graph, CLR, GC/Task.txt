@@ -1,0 +1,18 @@
+1. as of now in the project, the connection string is mentioned in db context file
+	this is not a good practice
+
+		a. you may have 6-7 data context in a project, which means
+			there are 6-7 connection strings
+
+		suppose we have to change the password for server
+			this will mean change password in all the dbcontext files
+
+
+		b. if we have a class library, and we have to sell/share the class lib to customer/some other 		team, it will carry my complete server details, etc...not at all safe
+
+
+	thus the practise is to save the connection string in a config file, for .net it is 
+		appsettings.json
+
+TASK : a. move the connection string from dbcontext file to appsettings.json 
+       b. in the dbcontext read the connection from from appsettings.json  
