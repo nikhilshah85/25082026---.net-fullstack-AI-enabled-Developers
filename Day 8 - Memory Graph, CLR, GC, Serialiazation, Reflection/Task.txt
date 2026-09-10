@@ -16,3 +16,20 @@
 
 TASK : a. move the connection string from dbcontext file to appsettings.json 
        b. in the dbcontext read the connection from from appsettings.json  
+
+
+2. Read about RegEX - regular expression with C#
+
+3. String processing and Advanced String Processing in C#
+
+
+4. work on project / prepare for QC / continue to watch and learn from youtube
+
+
+
+
+
+
+
+
+

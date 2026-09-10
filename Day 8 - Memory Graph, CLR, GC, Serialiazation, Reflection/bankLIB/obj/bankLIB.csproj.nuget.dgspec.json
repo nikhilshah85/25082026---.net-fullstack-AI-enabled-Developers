@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 8 - Memory Graph, CLR, GC\\bankLIB\\bankLIB.csproj": {}
+    "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 8 - Memory Graph, CLR, GC, Serialiazation, Reflection\\bankLIB\\bankLIB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 8 - Memory Graph, CLR, GC\\bankLIB\\bankLIB.csproj": {
+    "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 8 - Memory Graph, CLR, GC, Serialiazation, Reflection\\bankLIB\\bankLIB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 8 - Memory Graph, CLR, GC\\bankLIB\\bankLIB.csproj",
+        "projectUniqueName": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 8 - Memory Graph, CLR, GC, Serialiazation, Reflection\\bankLIB\\bankLIB.csproj",
         "projectName": "bankLIB",
-        "projectPath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 8 - Memory Graph, CLR, GC\\bankLIB\\bankLIB.csproj",
+        "projectPath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 8 - Memory Graph, CLR, GC, Serialiazation, Reflection\\bankLIB\\bankLIB.csproj",
         "packagesPath": "C:\\Users\\nikhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 8 - Memory Graph, CLR, GC\\bankLIB\\obj\\",
+        "outputPath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 8 - Memory Graph, CLR, GC, Serialiazation, Reflection\\bankLIB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 8 - Memory Graph, CLR, GC\\serialization_demo\\serialization_demo.csproj",
+      "projectUniqueName": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 8 - Memory Graph, CLR, GC, Serialiazation, Reflection\\serialization_demo\\serialization_demo.csproj",
       "projectName": "serialization_demo",
-      "projectPath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 8 - Memory Graph, CLR, GC\\serialization_demo\\serialization_demo.csproj",
+      "projectPath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 8 - Memory Graph, CLR, GC, Serialiazation, Reflection\\serialization_demo\\serialization_demo.csproj",
       "packagesPath": "C:\\Users\\nikhi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 8 - Memory Graph, CLR, GC\\serialization_demo\\obj\\",
+      "outputPath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 8 - Memory Graph, CLR, GC, Serialiazation, Reflection\\serialization_demo\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
