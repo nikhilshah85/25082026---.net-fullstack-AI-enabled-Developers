@@ -1,0 +1,18 @@
+
+
+
+
+create a table to store employee information which will be as follows
+
+	
+
+	need an 
+		empNo - primary key
+		empName - min 3 characters and mandatory field
+		empDesigantion - can only be HR, Developer, Accountant, Trainer
+		empSalary - only between 8k and 25k
+		empIsActive - mandatory
+	        empDept - foreign key - obviously deptNo
+		empSSN - unique key and mandatory
+	
+	add 20 meaningful records so we can learn next queries 

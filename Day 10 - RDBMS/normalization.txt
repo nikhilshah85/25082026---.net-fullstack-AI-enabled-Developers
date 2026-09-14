@@ -15,3 +15,27 @@ how do u design a database system -
 	--once you finisish all 3 NF's
 		you create a diagram, a presentation of all ur tables
 			this diagram is called ER / ERD - entity relationship diagram
+---------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,80 @@
+
+
+
+					SQL - Structured Query Language
+
+
+			DDL - data definition language (deals/structure with the design of object)
+					create (Objects)
+					alter 
+					delete/drop
+					truncate (deletes all the data, not the table, but also drops other 							objects in that table, eg. constraint)
+			DML - data Manipulation language(deals with data)
+					insert (new record)
+					update (edit record)
+					delete (delete a record)
+					truncate (deletes all the data, not the table, but also drops other 						objects in that table, eg. constraint)
+		DQL - data query language (about reading data from tables/view/multiple tables/view)
+					select
+						all columns all data (all records)
+						limited columns
+						filter (where clause)- limited records
+						sort (order by clause) - ascending or descending
+						group (group by clause) - 
+						with functions
+							string functions
+							numeric
+							data and time
+						with aggregation
+						with sub query(query inside query)
+						JOINS (5 types of joins)
+						..
+						..
+		DCL - data control language - used by admins
+				to control access to which object allowed to which user
+					grant
+					revoke
+		DTL - Data transaction language (used for transactions)
+					commit
+					rollback
+					
+			
+
+
+		-----------------------------------------------------------------------
+			Tables - also has 1 more important object
+				constraints
+					Types of constraints
+				a. primary key (identity of an record) - only 1 per table
+				b. not null (required value - cannot be left blank)
+				c. unique constraint (unique only, allows 1 null record, this is not the 					primary key) - u can have multiple unique key in a table 
+				d. check constraint (conditions) - empsal only between 5 and 10k
+				e. foreign key
+				
+					
+
+										
+	
+
+	
+
+
+				
+					
+
+
+
+
+
+
+
+
+
+
+
+	
+				
+
+			
+
+			
