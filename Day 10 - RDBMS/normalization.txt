@@ -1,0 +1,17 @@
+how do u design a database system -
+	 Normalization - this is the technique to design and create
+		-a robust database system
+		-fast preforming
+		-easy to manage and maintain
+		-flexible for front end
+
+	there are 6 level of normalization (1st and 2nd 1 is the most easiest)
+		for application developers
+		we do 1 to 3 (1NF, 2NF, 3NF)
+		data enginners (for data analytics and reporting, they use 4th to 6th)
+		so, we only need to learn 1st 3
+		
+
+	--once you finisish all 3 NF's
+		you create a diagram, a presentation of all ur tables
+			this diagram is called ER / ERD - entity relationship diagram

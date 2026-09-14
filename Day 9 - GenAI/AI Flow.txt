@@ -1,0 +1,24 @@
+For a developer, from then application,
+
+in the code behind,
+
+1. connect to model (any model which you have access to, it needs an API key)
+2. use libraries, to generate the token from user inputs
+3. tokens are further sent to embedding model
+	embedding model - 1. understand the token, get the context out of token 
+			  2. is this the first query or repeated/counter question
+4. forward the embedded query to vector database 
+		vector databases stores the vector
+
+	the output is called chunks
+		(there are spececialized chunking stratergies)
+
+5. chunks are then forwarded to RAG
+	this generates 8 to 10 outputs (parallelly)
+	at the same time, cross verifies the output, 
+	pick up the best output for further processing, best output are decided by developers based on parameters like temperature, k value
+6. based on RAG output, restructure the prompt,if needed
+7. again convert everything into tokens
+8. output by llm, the complete output is again converted into tokens
+9. tokens are send back to user application and application will convert it back to text and image for users
+		

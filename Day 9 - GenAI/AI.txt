@@ -1,0 +1,50 @@
+							AI
+
+
+GenAI - Generation of new contents
+AgenticAI - this is a lot about Agents
+		Agents
+			single agent (chat agents)
+			Multi agent solution
+
+-------------------------------------------------------------
+		you are createing a website for Tourist/vacations/holidays
+
+		you have a user in india:
+			Plan me a vacation for 20 days to visit Europe with my family of 4 - 2 kids less than 			10 years age
+
+		1. book me chepest flight, non stop, business class, which starts at mid-night india time
+		2. book me a 4 star stay with all meals included
+		3. book a guide to take me to good and must visit places
+		4. book a car/vehicle for all the days right from airport pick on arrival and drop on last 			day
+		5. suggest me the places to visit
+		use my credit card, 32047320847238, to make the payment, when opt is needed ask me I will give it
+	this can be done in 7-10 mins
+		
+-----------------------------------------
+Data and NLP - Natural language processing
+		read and process any format of data, in any language
+-----------------------------------------
+Vision - (recognization) - read 1000 page document/book for u 
+Voice recognition - alexa, siri
+
+
+LLM - very very huge formated, cleaned, tested data for various domains
+
+
+hallucination - meaning
+	you got an output, which looks very good and correct, BUT IT IS NOT
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+		

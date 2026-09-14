@@ -1,0 +1,61 @@
+enginenumber  capacity
+101		200kph
+
+		350kph
+		150kph
+		75kph
+
+--------------------------
+	empTable
+
+empNo deptNo FirstName LastName FullName SSN
+
+1NF is - when you remove records and field redunancy, and have a primary key (primary is the unique value which is
+the identity of every record in a table)
+
+	choose a primary key, which is identity of a record, not the identity of a person/object
+
+	so u break a table into 2 or more
+		a. parent table (master table)
+		b. child table
+
+
+2NF - when the table has only 1 field as primary key, table is already in 2nd normal form
+
+
+
+
+
+helpful for 2nd NF
+Functional dependency - makes sure, field has dependency only primary key or not (test it only with primary key field) - forget other fields/columns
+
+
+helful for 3rd NF
+Transetive dependency - make sure, field has dependency only with primary key and no dependency with any other field - need to test it with other fields
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

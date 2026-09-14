@@ -1,0 +1,9 @@
+WHEN TO GO WITH SQL SERVER/ORACLE *3k to 4k usd upfront
+it comes with the cost
+1. licence (recurring cost - renew every 3-5 years) - support cost
+2. buy a server for the same
+3. need man power - DBA
+4. space, electricity, cooling etc....
+5. no revenue on no business days - server is just lying there and no revenue but above still continues
+	against this
+excel, openoffice, etc...are like zero cost
