@@ -1,0 +1,72 @@
+
+
+					JOINS - 
+			This are very much used and usefull to select data from multiple tables
+
+		2 or more tables which has common columns with same data type
+
+		eg. we have empInfo has empDept int
+			    deptInfo has deptNo int
+
+
+		when this tables are related logically or technically, we need to collect data from both
+		of them for presentation or display
+
+1. cartisian product / cross join
+	this is multiple each row in table 1 to each row in table 2 - this helps to know what is the maxim amount of rows which can be generated at a time, and then calculate how much space it will need for
+		ram/processor/io etc..and thus plan the server capacity
+
+select * from empinfo, deptinfo -- u can add a where clause as well
+
+2. equi join - inner join
+	select empNo,empName, deptNo,deptLocation,deptName
+		from empInfo join deptinfo
+		on 
+		empInfo.empDept = deptInfo.deptNo
+		where empSalary > 12000
+		order by empName
+
+3. select empNo,empName, deptNo,deptLocation,deptName
+		from empInfo left join deptinfo
+		on 
+		empInfo.empDept = deptInfo.deptNo
+		where empSalary > 12000
+		order by empName
+
+4.  select empNo,empName, deptNo,deptLocation,deptName
+		from empInfo right join deptinfo
+		on 
+		empInfo.empDept = deptInfo.deptNo
+		where empSalary > 12000
+		order by empName
+
+5.  select empNo,empName, deptNo,deptLocation,deptName
+		from empInfo full join deptinfo
+		on 
+		empInfo.empDept = deptInfo.deptNo
+		where empSalary > 12000
+		order by empName
+
+6. select empNo,empName, deptNo,deptLocation,deptName
+		from empInfo full join deptinfo
+		on 
+		empInfo.empDept = deptInfo.deptNo
+		where empInfo.empDept is null
+
+--------------------------------------
+		create a new database understandingJOINSDB
+		a create a new table deptInfo - add 4 records
+			10, 20, 30, 40 deptNo, deptName, deptLocation
+
+		2nd table empInfo, empNo,empName, empDesignaion,empSalary, empDeptNo
+			add 5 records similar to the 1 u saw MS Paint
+		
+		
+
+
+
+
+
+
+
+
