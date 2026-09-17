@@ -177,3 +177,73 @@ select dbo.calculate(10,5,'+') as Calculate
 		select * from credInfo where userName = 'userOne' and pwd = 'Pass@4321'
 
 		select count(*) from credInfo where userName = 'userOne' and pwd = 'sdfd@4321'
+
+
+
+		create table bankAccount
+		(
+			accNo int,
+			accName varchar(20),
+			accType varchar(20),
+			accBalance int,
+			accIsActive bit
+		)
+
+		insert into bankAccount values(101,'Nikhil','Savings',3000,0)
+
+		alter procedure bankAccountProc
+		(
+		    @action varchar(10),
+			@accNo int out, 
+			@accName varchar(20),
+			@accType varchar(20),
+			@accBal int,
+			@accIsActive bit,
+			@accTransAmt int,
+			@transferToAccNo int,
+			@result varchar(60) out
+		)
+		as
+		begin
+			if (@action = 'newAcc')
+			begin
+				declare @newAccNo int = (select max(accNo) + 1 from bankAccount)
+				insert into bankAccount values(@newAccNo,upper(@accName),@accType,@accBal,@accIsActive)
+				set @result = 'Account Created, new Account Number  is : ' + convert(varchar,@newAccNo)
+			end
+
+			if(@action = 'DelAcc')
+			begin
+				delete from bankAccount where accNo = @accNo
+				set @result = 'Account Deleted Successfully'
+			end
+
+			if(@action = 'Withdraw')
+			begin
+				update bankAccount set accBalance = accBalance - @accTransAmt
+				--we can select the new transaction number from transaction table and return the transaction number to user
+				set @result = 'Withdraw Successful'
+			end
+
+			if(@action = 'Deposit')
+			begin
+			update bankAccount set accBalance = accBalance + @accTransAmt
+				--we can select the new transaction number from transaction table and return the transaction number to user
+				set @result = 'Deposit Successful'
+			end
+
+			if(@action = 'Transfer')
+			begin
+			update bankAccount set accBalance = accBalance - @accTransAmt where accNo = @accNo
+			update bankAccount set accBalance = accBalance - @accTransAmt where accNo = @transferToAccNo
+
+			end
+		end
+								
+	
+		declare @res varchar(70)
+		exec bankAccountProc 'newAcc',0,'Harry','Checking',70,0,0,0,@res out
+		print @res
+
+
+		select * from bankAccount
