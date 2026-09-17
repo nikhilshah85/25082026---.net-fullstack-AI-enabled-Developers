@@ -1,0 +1,79 @@
+1. TSQL 
+  a. functions	
+  b. procedures
+  c. Triggers
+2. if time permits, we will download and install vs 2024 (we do this at 12:45)
+
+3. EF core - code first approach
+
+-------------------------------------------------------------------------------------------------
+
+			TSQL (Transact SQL in SQL Server, also know as PLSQL in oracle and MySQL, db2 etc..)
+
+	1. with SQL there are challenges for developers
+		a. programming our queries
+			with variable
+			with conditions (if, if else, switch)	
+			loops 
+			exception handling
+	2. if you 10 users fire, select * from empInfo
+		this query goes through more than 10 steps to return the result
+		--they are loose statement- for a query they go through lots of steps for result everytime even if it is the same query, by same user
+
+		so, instead why not create pre-checked, compiled block, where we say, this block will be given only to selective users to whom we have verified the access
+
+		thus we create new objects to meet this requirements
+
+		  a. functions	
+  		  b. procedures
+ 		  c. Triggers
+
+-----------------------------------------------------------------------------
+		a. Functions, also called as User Defined Functions (UDF)
+		this are used for 
+			calculations, conditions, loops, to hide the algo, code logic etc...					not suitable for DML operations
+			you used some inbuild functions like, sum, min, concat, trim, getdate etc..				lets create our own functions
+
+		create function functioName(...parameters) 
+			returns datatype
+		as
+		begin
+			//your code
+			return result
+		end
+
+
+		a function can return only 1 value
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+			

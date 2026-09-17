@@ -1,0 +1,9 @@
+Admins can create a view, and then they can manage
+which user will be allowed to do what operations on them
+
+
+
+task and research on 2 topics before ending the day
+
+1. what is having clause and give example
+2. what is CTE in sql server ? give example

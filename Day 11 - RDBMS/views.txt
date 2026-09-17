@@ -1,0 +1,68 @@
+all our data is stored in the table - this is the final destination for data
+
+tables are very critical 
+
+if a hacker - knows the name of the table, column, 
+
+its very easy to target that table or column
+
+tables name should not be disclosed to any1
+
+thus instead decorate a wrapper on the table(name) and share that wrapper
+
+they try to attack they wrapper - considering it is a table, but then they fail
+
+
+thus we create a view around the table - which sounds like/looks like a table but it is not
+
+--view is also an object
+
+create view emprecords
+as
+select * from empInfo
+
+
+create view empDevelopers
+as
+select * from empInfo where empDesignation = 'Developers'
+
+create view empTopPaidEmployees
+as
+select * from empInfo where empSalary > 20000
+
+create view empSummary
+as
+select count(empNo) as [Total Employees], 
+	max(empSalary) as [Max Salary], 
+	min(empSalary) as [Min Salary],
+	sum(empSalary) as [Total Salary],
+	avg(empSalary) as [Average Pay]
+from empInfo
+
+
+create view empDetails
+as
+select empNo, empname, empDesigantion,
+       deptNo, deptName, deptLocation as 'Works At'
+	from empInfo e join deptInfo d
+	on
+	e.empDept = d.deptNo
+
+select * from empDetails
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
