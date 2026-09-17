@@ -44,12 +44,53 @@
 
 
 		a function can return only 1 value
+		b. function can be used with select statement, and it will run for all the rows
+
+
+========
+		like functions we have another similar object Stored Procedure in sql server
+
+		a. used for DML operations
+		b. It can call a function inside the code (between begin and end)
+		c. it has different types of parameters (call directions)
+			a. in parameter (input - default) - same like u used in function
+			b. out parameter (output - here procedures returns this value to user)
+				and this is where procedure can return multiple values against 1 value by 				function
+			c. in - out parameter, you give input, proc formats it, calculates it, validate it 
+			and return you the output
+				eg. 
+				1234566678 - input
+				(123)-(456)-6678
+
+
+				country - India - input
+				phone number - 8987955633 - input
+				output - (+91)- 8987955633 - output
 
 
 
+			
+------------------------------Triggers
+	a. this is used for automation of data (only 1 object available to developers for automation)
+	b. also called as a custom constraints
+	c. this are like events, when something happens (DML), with the data in table or view
+		u want sql server to do something for you on its own
+	d. it can be a guard for organization as well as per the policy
 
+			some of the scenrios
 
+			a. new employee can be a part of organization only during the working hours
+				new insert / update / delete should be allowed only during work hrs
+				monday to friday 9-5
+		
 
+			b. Triggers are time based
+				types of trigger
+					before ( eg. for no dml during non work hours)
+					after (walmart store for stock info)
+					instead of (specially for views) (views based on joins)
+
+			
 
 
 
