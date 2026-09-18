@@ -1,0 +1,26 @@
+
+
+
+
+
+			We need to do a EF Core - code first approach 
+
+			I want you to take help of AI 
+
+	and create a working code example of the same
+			for the below domain
+				Cofee Shop
+
+	----------------------------------------------------------
+			Ask AI,what EF Core Code first approach and help you to create a step by step demo 			example on the same
+		
+			also ask AI, I want to create an app for my coffee shop, using EF Core code first approach,with VS code and .net core 10, it should be a console application, and backend is SQL Server,design the application with required tables commands, and complete walk through, also give me an ER diagram at the end
+
+		also ask ai to explain you the technical implementation, so that you can answer questions to panel during the presentation 
+
+
+
+
+			
+
+	 
