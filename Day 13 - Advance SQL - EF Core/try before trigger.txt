@@ -1,0 +1,6 @@
+change the trigger for deptInfo
+
+do not allow DML operations on 
+	Friday and Saturday
+
+	between 9:00 AM to 6:00PM
