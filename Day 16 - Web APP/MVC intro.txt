@@ -1,0 +1,50 @@
+Model(.cs file) - the data part, all the data related activity goes here
+		database intractions
+		collections
+		CRUD operations
+		filters
+		sorting
+		grouping
+		data validataion
+		data annotations 
+		
+View(.cshtml)
+		UI 
+			html, css, JS, bootstrap, jQuery etc.. pictures videos images etc..
+			this is what users will see on browser / phone
+
+Controller (.cs)
+		this will monitor and enable communication between model and view
+		it takes care of non model and view activies like
+			security
+			encryption and decryption
+			authentication and authorization
+			passing data from model to view and view to model
+			session management
+			caching 
+			etc....
+
+at runtime, they all act as a single unit
+
+if you want to design home page, 
+		u will have
+			home.cs
+			home.cshtml
+			homecontroller.cs
+
+		u want products
+			products.cs (write ur entity framework code here)
+			products.cshtml (display products in a table, div, lables etc....animation etc..)
+			productscontroller.cs (security, rights, roles etc...)
+			
+
+
+
+
+
+
+
+
+
+
+

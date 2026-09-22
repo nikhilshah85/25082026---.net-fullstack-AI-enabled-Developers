@@ -1,0 +1,6 @@
+Web API (this is all about data exchange)
+		this is the background service which enables communication of data 
+		between applications, operating systems, freworks like .net and java
+		even electnic devises like watch, air conditioner, refrigerator, cars etc...
+
+			the data format here is JSOn

@@ -1,0 +1,77 @@
+A - Atomicity - if an application or a database starts a transaction, all the units of transaction
+	should succeed, even if 1 fails, all should be rolled back
+
+			eg. you a user, and you did some shopping on Amazon
+				value is 800$
+
+
+				you made a payment from some card lets say
+				so when u hit a pay button
+
+				800 - 
+					units
+			a. ur account to be debited (update uraccNo set balance = bal - 800)
+			b. amazon acct to be credited (update amzacct set bal = bal + 10)
+			c. seller acc - (update selleracc set bal 680) -- this failed
+			d. govt - (update govt acc set bal = bal + taxamt)
+			e. courier/delivery -- some amount update
+
+			f. stock table - to reduce the stock 
+			g. set sales date in sales table
+
+		now lets say, 1 of the query(unit) fails - 
+
+			if all the queries is successful, its a commit else rollback everything
+
+		ur database should support and implement this kind of environment
+
+
+
+
+
+
+
+C - Consistency - once the transaction,it should maintain all the rules and constraints of database as perinitial planning
+
+
+		if should not be that,because I am an owner of the company, I have rights to enter data
+			against the constraint 
+
+		meaning since I am a owner, my designation cannot be a King because we did not plan it in 
+		intial stage, and we do not have any such position in he organization 
+
+
+		from a sales prespective, if minimum qty of sale of colddrinks is 500 bottles,
+			we should not sale 300 bottels even to our golden customers
+I - isolation - transactions /query should have their own execution and no 1 interfers with other query 
+	this adds to a lot of secrecy / privacy to data
+D - Durabality - every transaction which is successful, should be commited and saved to disk, and that data should be available even if server crashed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
