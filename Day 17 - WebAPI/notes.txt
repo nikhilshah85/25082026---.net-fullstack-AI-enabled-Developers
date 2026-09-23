@@ -1,0 +1,18 @@
+ASP.Net MVC - model view controller - this is for web UI application
+		MVC is an old web design pattern 
+
+		Component based development is the latest 1 - which is used In
+			3 major tech today
+
+			a. Angular (by Google) - 6 years old - lots of projects already on this
+			b. React (by Meta / Facebook)  - 6 yrs old - lots of project already on this
+			c. Blazor (ASP.net blazor by MS) - little heavy, less famous and its new
+		
+ASP.Net WebAPI - model and controller - this is for Web Data Application - for data exchange and communication
+
+
+REST
+	ASP.net webAPI (coz u need to know C# here, which u already learned)
+	Node (u will need to learn advance JavaScript and typescript)
+	Java (
+	Python 

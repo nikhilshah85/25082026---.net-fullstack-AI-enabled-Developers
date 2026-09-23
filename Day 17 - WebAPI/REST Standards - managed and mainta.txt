@@ -1,0 +1,7 @@
+REST Standards - managed and maintained by W3C
+	Microsoft studied those standards, created compiled, packages, namespaves, classes, methods 
+	everything based on those standards
+
+	and gave us a component for developing REST based applications on .net core runtime
+		this component they called it as WebAPI
+			

@@ -1,0 +1,4 @@
+to test the api, we use tools like, 
+	postman (need to download and then use)
+	fiddler (need to download and then use)
+	Swagger (is a tool by Microsoft, we can add to the application itself)
