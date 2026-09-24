@@ -1,0 +1,145 @@
+
+				DI - Dependency Injection
+
+	This is all about objects - creation and destruction
+
+			Imagine we have 10 tables in our database
+			we used EF, and "IT" generated 10 model classes  
+			and so we will have 10 controllers
+
+			what do we have in each controller 
+				if we create objects, 
+				ShoppingDBContext db = new ShoppingDBContext();
+Problem 1 --
+		List<Products> plist = new List<Products>();
+
+		--we created the Objects, but we never wrote any code to destroy it
+
+		--because we are been told, GC will come and clear it
+			--this is good for desktop application 
+
+	 --but for web, we have millions of users in a day 	
+Problem 2 --
+		In web applications, need of an object is different because, user will navigate between 		pages
+		in web images, 
+			Login page --> user spplied username and password, click on the button 
+			if username and password are correct, user will be taken to a new page
+				home.html
+
+			we need to use the data of login page on home page and other pages, 
+				welcome username
+
+			thus, object needs to shared between pages/screen, so how to configure this
+
+			other scenario, 
+			display currency-exchange rate, or USD value today (this is a common data for every 			user)
+
+	------------------------
+
+			There are 3 types of objects
+				a. Personal only to a specific user (single page)
+				b. Personal only - shared in multiple pages (session)
+				b. Shared Object - to be shared between multiple users
+
+			the new standards says that the runtime(.net core) should take care of 
+			creation of object, and destruction of object
+
+			thus, we have a concept called Di which will create the object and destroy the object, by writing the code in a specic wy
+		1.
+		so instead of 
+			ShoppingDBContext db = new ShoppingDBContext();
+		use 
+			ShoppingDBContext db; 
+				coding conventions says use _db
+			ShoppingDBContext _db;
+
+	-------------
+		2. in program.cs
+			configure DI with 3 types of objects
+				perCall()
+				perSession()
+				SingleTon()
+
+	
+		a. when u use perCall(), server will create the new object, generate the response, return 			  the response to user and destroy it at the same time
+
+		b. when u use perSession(), server will create the new object, share it between multiple request and response between browser and server, and when users session will end, (user said logout, or user is inactive for 20 mins (20 mins is default, u can change it to 5), runtime will destroy the object
+		object will be available only to that user
+
+		c. when u use SingleTon(), at the start of the application on server, runtime will create 1 object, and same object will be used by all the users (eg. connection string)
+		when the server stops object will be destroyed
+
+		this is the instruction to runtime
+			but when should runtime create the object ?
+			so on the request basis and we write it in a constructor
+
+			ShoppingDBContext _db;
+
+			public productscontroller(ShoppingDBContext objFromRunTime)
+			{
+				_db = objFromRunTime;
+			}
+		
+
+
+
+
+
+
+
+
+, 
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

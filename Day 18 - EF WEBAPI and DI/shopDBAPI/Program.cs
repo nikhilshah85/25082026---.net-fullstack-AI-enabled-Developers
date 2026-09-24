@@ -11,6 +11,16 @@ builder.Services.AddControllers();
 builder.Services.AddSwaggerGen();
 
 
+//Per call
+builder.Services.AddTransient(typeof(shopDBAPI.Models.EF.ShoppingDbContext));
+
+//per session
+builder.Services.AddScoped(typeof(shopDBAPI.Models.EF.ShoppingDbContext));
+
+//Per application, single object for all the users
+builder.Services.AddSingleton(typeof(shopDBAPI.Models.EF.ShoppingDbContext));
+
+
 builder.Services.AddDbContext<ShoppingDbContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("ShoppingDBContext")));
 // Configure the HTTP request pipeline.

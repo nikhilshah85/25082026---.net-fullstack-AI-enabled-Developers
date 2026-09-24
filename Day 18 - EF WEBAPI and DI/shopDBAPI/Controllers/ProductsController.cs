@@ -14,12 +14,16 @@ namespace shopDBAPI.Controllers
     public class ProductsController : ControllerBase
     {
         //this is DI
-        private readonly ShoppingDbContext _context;
+        private readonly ShoppingDbContext _context; //so far this is just a variable
 
-        public ProductsController(ShoppingDbContext context)
+
+        //this is call constructor injection
+        public ProductsController(ShoppingDbContext context)//receiver reference from runtime
         {
             _context = context;
         }
+
+        //we can also do it in a method or a propery
 
         // GET: api/Products
         [HttpGet]
