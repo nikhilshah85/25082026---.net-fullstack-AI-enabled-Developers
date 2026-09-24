@@ -64,6 +64,20 @@
 6. test the version and installation of ef core cli
 	dotnet ef  
 
+	dotnet add package Microsoft.EntityFrameworkCore
+
+	dotnet add package Microsoft.EntityFrameworkCore.Tools
+	
+	dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+	
+	dotnet add package Microsoft.EntityFrameworkCore.Design
+
+	dotnet add package Swashbucket.AspNetCore
+
+
+
+
+
 7. ready the connection string to server
 		(this is for server authentication)
 	server=;database=;username=;password=;trustservercertificat=true
@@ -89,7 +103,7 @@
 	========================================================================================================
 
 
-dotnet ef dbcontext scaffold "server=NIKHILPC\MUMBAISERVER;database=employeeManagementNewDB;Trusted_Connection=true;trustservercertificat=true" Microsoft.EntityFrameworkCore.SqlServer --output-dir DB --force
+dotnet ef dbcontext scaffold "server=NIKHILPC\MUMBAISERVER;database=shoppingDB;Trusted_Connection=true;trustservercertificate=true" Microsoft.EntityFrameworkCore.SqlServer --output-dir Models\EF --force
 
 	
 

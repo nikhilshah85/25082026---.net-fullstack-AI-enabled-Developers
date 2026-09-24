@@ -1,0 +1,15 @@
+ASP.net web api 
+	1. we had CRUD operations with Collections and Linq
+		collection are in memory - good for small size application
+
+	2. Create a Web API using EF Core with SQL Server database 
+
+	a. create a new database, shoppingDB, 
+		we will add tables
+			a. Products
+				pId(pk), pName, pCategory, pPrice, pQty, pIsInStock
+
+			quicky create this db and table, insert 10 records in the same
+
+	b. create a new asp.net web api project with VS Code
+		dotnet new webapi --name shopDBAPI

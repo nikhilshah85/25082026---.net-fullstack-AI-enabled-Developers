@@ -1,0 +1,10 @@
+dotnet aspnet-codegenerator controller \
+  -name ProductsController \
+  -async \
+  -api \
+  -m Models\EF\Product \
+  -dc Models\EF\ShoppingDBContext \
+  -output-dir Controllers
+
+
+dotnet aspnet-codegenerator controller -name ProductsController -async -api -m shopDBAPI.Models.EF.Product -dc shopDBAPI.Models.EF.ShoppingDbContext -outDir Controllers
