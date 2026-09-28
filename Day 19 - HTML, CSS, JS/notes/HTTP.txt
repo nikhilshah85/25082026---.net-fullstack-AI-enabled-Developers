@@ -1,0 +1,89 @@
+HTTP is a stateless protocol - it does not remember anything between the client
+				and server communication 
+
+		so we have concepts to save the memory on server or on client
+
+		on the server - server creates a profile for user(if configured)
+				called as session (its an object) 
+				default time of this session is 20 mins of inactive user
+					i.e if user remains inactive for 20 mins, session times out and 					profile is deleted
+
+
+		on the client - we use cookies (an outdated concept) to store user data
+			        advanced and new way
+					sessionStorage (JS objects)
+					localStorage (JS objects)
+					
+--------------------------------------------------------------------------------------------------------
+	HTTPResponse - header and body
+
+		WHEN you receive response from the server, you receive it in 2 parts
+			a. header (this is some info about the response )
+					time of response generated
+					cookies
+					JWT token
+				something that user does not see
+					redirection info
+
+
+			www.mysite.com --> this is the old domain name, old site
+					people are still entering this name
+				but we want them to re-directed or navigated to a new domain / site
+			www.newsite.com -->
+			b. body (this is what u see on the screen)
+
+------------------------------------------
+		Cookies - they are the text files, which has information about the users preferences stored by the browser
+			there are 2 types of cookies
+			a. temp cookies (in the browser memory, when u close the browser they are gone)
+			b. permanent cookies (data saved in a text file, and persisted on disk in .txt)
+
+	--this has some drawbacks
+			a. max size is 4kb 
+			b. data is stored in plain text, pure English, so any1 go to a cookie folder and read the data, thus cannot be/should not be used to store sensitive data 
+			c. everytime user goes to server, cookies go along with the request, and cookies comes back with the response, making the communication a little heavy
+
+			Point to remember - cookies cannot shared between browsers
+	
+		they are now been replaced by, 
+			sessionStorage
+			localStorage
+		store 5 MB of data
+		they can be encrypted
+		they do not transmit/transfer for every request and resonse
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

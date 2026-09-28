@@ -1,0 +1,83 @@
+
+
+			HTML - Hyper text markup language
+				<table border=1>
+					<tr text-align="center">
+					<td>
+					<th>
+				<img src="C:\logo.jpg">
+				<p font="comic sans">
+				<h1 color="purple">
+				
+				
+		1000 + markups 
+			tags
+			attributes
+
+-----------------------------------------------------------------------------------------------
+structure of an HTML document
+	<DOCTYPE HTML!>
+	<html>
+		<head> 
+			header information
+		</head>
+
+		<script language="javascript" ref="js\calculation.js">			
+		<script>
+
+		<style type="stylesheet" link="css\mystyle.css">
+			
+		</style>
+
+		<title> Title of the page </title>
+
+		<body>
+			what user sees
+
+		</body>
+
+	</html>
+
+--------------------------------------------------------
+
+
+			1. HTML is not case scencetive
+			2. <> </> are called tags
+			3. <h1 color="red"> Hello </h1> - color is called as attribute
+			4. not all the tags has a closing tag, some are self closing
+				called as an empty tag, eg
+				</br> 
+				</hr>
+.
+
+		html tags
+			a. header tags
+				6 of them
+					<h1> - biggest
+					<h6> - smallest
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
