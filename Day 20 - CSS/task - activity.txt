@@ -1,0 +1,21 @@
+
+
+
+1. You had an activity last week on asp.net web API
+
+	security feature
+
+	with the help of AI, you are required to implement / demonstrate how to use JWT token within ur application
+
+	your task 
+		a. research on what is JWT token all about, why is used, why so famous, advantages 
+											drawbacks, when not 											to use ?
+
+		b. how do you implement the same, on server side (generate the token on server, 
+					what are different ways, algos which be used) - is it already encrypted ? if yes, which algo, if not how to encrypt it
+
+		c. where will u store the same on client side ? cookies ? sessionStorage, how ?
+
+		d. show a working demo on the all of the above, to be implemented with WebAPI application
+
+	

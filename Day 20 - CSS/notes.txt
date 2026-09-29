@@ -1,0 +1,25 @@
+
+
+
+				Cascading Style sheet
+
+	-- this is used for decorating html tags
+	-- this works as { selector : value, selector:value, selec....} (selector can be 
+					html tag or an attribute of html)
+	-- there are 3 ways to use CSS 
+			a. inline css - with style attribute
+				eg. <h1 style="color:orange"> Welcome </h1>
+			b. internal css - written within <style> tag
+				<style>
+					h1
+					{
+						color:pink;
+					}
+				</style>
+			all this h1 in this page will be pink color
+
+			c. external - we create a .css file write our css specifications and reference this					file in .html
+-----------------------------------------------------------------------------------------------------
+
+
+		
