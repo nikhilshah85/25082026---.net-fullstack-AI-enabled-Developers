@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<script>
+
+   function pageLoad()
+    {
+        var user = localStorage.userName;
+            document.getElementById('welcomeMsg').innerHTML = "Welcome " + user;
+    }
+
+    function validateUser()
+    {
+        var uName = document.getElementById('txtUserName').value;
+        var pwd = document.getElementById('txtPassword').value;
+
+    var loginM = document.getElementById('loginMsg');    
+    if(uName == 'Admin' && pwd == 'Admin@123')
+    {
+        document.getElementById('loginMsg').innerText = 'Login Successful !!'
+        loginM.style.color = 'Green';
+
+        localStorage.userName = uName;
+        localStorage.firstName ="NikhilShah";
+        localStorage.designation = "Consultant";
+        localStorage.sdfkjdh = "Something"
+        
+
+    }
+    else
+    {
+        document.getElementById('loginMsg').innerText = 'Invalid Credentials';
+        loginM.style.color = 'Red';
+    }
+    }
+</script>
+
+<body onload="pageLoad()">
+
+    <h6 id="welcomeMsg" style="text-align: right;"> </h6>
+
+    <input type="text" placeholder="Enter User Name" id="txtUserName"  />
+    <input type="password" placeholder="Enter your password" id="txtPassword" />
+    <button onclick="validateUser()"> Login </button>
+
+    <h1 id="loginMsg"></h1>
+</body>
+</html>

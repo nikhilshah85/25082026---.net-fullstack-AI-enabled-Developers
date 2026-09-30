@@ -52,9 +52,13 @@
 
     <hr/>
     <h1> Calculations </h1>
-
-    <input type="number" placeholder="Enter First Number" id="txtNum1"/>
-    <input type="number" placeholder="Enter Second Number" id="txtNum2"/>
+<!-- 
+    we have a small requirement, 
+    1. both the numbers should be positive
+    2. Max number can only be 100
+    3. we will not call the calculate function if any number is missing -->
+    <input type="number" placeholder="Enter First Number"   id="txtNum1" />
+    <input type="number" placeholder="Enter Second Number"   id="txtNum2" />
     <button onclick="Calculate()"> Calculate </button>
     <h3 id="addition"></h3>
     <h3 id="subtraction"></h3>

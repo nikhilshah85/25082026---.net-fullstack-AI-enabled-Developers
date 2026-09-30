@@ -19,3 +19,21 @@
 		I. we use <script> </script> for JS
 		J. JS can manipulate / change HTML and CSS both
 		k. JS does not have OOPS support, no classes, data types
+
+		---------------------------------------------------------------
+
+		localStorge  - when u use this, data is stored in browser until user clears browser cache
+		sessionStorage - when u use this, data is cleared as soon as user will close the browser
+
+
+
+
+
+
+
+
+
+
+
+
+
