@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Post Details</title>
+</head>
+<script>
+    function getPostData()
+    {
+        var url = "https://jsonplaceholder.typicode.com/posts";
+
+        fetch(url).then(respType =>  respType.json())
+                   .then(data => {
+                    let table = document.getElementById("tblPost");
+                    table.innerHTML = "";
+                    data.forEach(post => {
+                        let row = `
+                            <tr>
+                                <td>${post.userId}</td>
+                                <td>${post.id}</td>
+                                <td>${post.title}</td>
+                                <td>${post.body}</td>
+                            </tr>
+                       `;
+                        table.innerHTML += row;
+                    });
+                })
+                  .catch(err => {
+                        console.log(err);
+                  })
+                  .finally();
+
+    }
+</script>
+<body>
+    <button id="btnPost" onclick="getPostData()"> Display post </button>
+
+    <table id="tblPost" border="1"></table>
+</body>
+</html>

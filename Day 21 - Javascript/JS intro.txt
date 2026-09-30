@@ -25,6 +25,40 @@
 		localStorge  - when u use this, data is stored in browser until user clears browser cache
 		sessionStorage - when u use this, data is cleared as soon as user will close the browser
 
+		---------
+		fetch (this is the name of an api built into every browser)
+			it is to be used as a JS function
+			it can make all the rest
+				get, put, post, delete and patch
+		Format--
+
+			fetch(url).then(respType => respType.json()) -- this block is to configure your 									data type json, text, xml, bin etc
+		     	          .then(result =>{
+						code here to display the data
+					}) --> make a call 
+                                  .catch(errInfo =>{
+						code here to display the error
+					}) -- 
+				  .finally({ what is the final code })
+		fetch method - returns a promise
+				ie either data or error message
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

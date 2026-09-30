@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Product</title>
+</head>
+<script>
+    function searchProduct()
+    {
+        var pid = document.getElementById('txtPid').value;
+        var url ="https://fakestoreapi.com/products/" + pid;
+
+        fetch(url).then(resP => resP.json())
+                  .then(result =>{
+                        document.getElementById("title").innerText = result.title;
+                        document.getElementById("price").innerText = result.price;
+                        document.getElementById("description").innerText = result.description;
+                        document.getElementById("category").innerText = result.category;
+                        var img = document.getElementById("productImg");
+                        img.src = result.image;
+
+
+                        document.getElementById("rating").innerText = result.rating.count;
+                  })
+                  .catch(err =>{
+
+                  })
+    }
+</script>
+<body>
+    <input type="number" onblur="searchProduct()" placeholder="Enter Product ID" id="txtPid"/>
+    <h3 style="text-align: center;" id="title"></h3>
+    <h3 style="color: chartreuse" id="price"> </h3>
+    <p style="font-style: italic;" id="description"></p>
+    <h3 id="category"> </h3>
+    <img src="" width="200px" height="200px" id="productImg"/>
+    <h3 id="rating"></h3>
+</body>
+</html>
