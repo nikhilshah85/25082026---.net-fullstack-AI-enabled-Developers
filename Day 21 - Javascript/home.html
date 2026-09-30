@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript</title>
+
+</head>
+<!-- we write functions here -->
+<!-- this functions are then wired as events with HTML -->
+
+<script>
+    function GreetUser()
+    {
+        // alert('Welcome to JS');
+        document.getElementById("header1").innerText = "Welcome to JS"
+    }
+
+    function displayGuestName()
+    {
+        var guestName = document.getElementById("txtGuestName").value;
+        document.getElementById("guestName").innerText = "Hello " + guestName;   
+    }
+
+    function Calculate()
+    {
+            var num1 = document.getElementById("txtNum1").value;
+            var num2 = document.getElementById("txtNum2").value;
+            var addResult = parseInt(num1) + parseInt(num2);
+            var subResult = parseInt(num1) - parseInt(num2);
+            var mulResult = parseInt(num1) * parseInt(num2);
+            var divResult = parseInt(num1) / parseInt(num2);
+
+            document.getElementById("addition").innerText =  "Addition : " + addResult;           
+            document.getElementById("subtraction").innerText =  "Subtraction : " + subResult;
+            document.getElementById("multiplication").innerText =  "Multiplication : " + mulResult;
+            document.getElementById("division").innerText =  "Division : " + divResult;
+
+
+    }
+
+</script>
+
+<body>
+    <button onclick="GreetUser()"> Greet </button>
+    <h1 id="header1"> </h1>
+
+    <hr/>
+
+    <input type="text" onblur="displayGuestName()" placeholder="Please enter your Name" id="txtGuestName"/>
+    <h1 id="guestName"></h1>
+
+    <hr/>
+    <h1> Calculations </h1>
+
+    <input type="number" placeholder="Enter First Number" id="txtNum1"/>
+    <input type="number" placeholder="Enter Second Number" id="txtNum2"/>
+    <button onclick="Calculate()"> Calculate </button>
+    <h3 id="addition"></h3>
+    <h3 id="subtraction"></h3>
+    <h3 id="multiplication"></h3>
+    <h3 id="division"></h3>
+
+
+</body>
+</html>

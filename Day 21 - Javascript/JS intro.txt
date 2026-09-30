@@ -1,0 +1,21 @@
+
+
+				a. an Web page are 2 types
+					a. static - as it if for infotmation
+					b. dynamic / intractive - this is achived using JS
+
+
+		a. collect and submit clients data and send it to server
+		b. before sending it to server, we may want to validate it 
+		c. calculate the data
+		d. save some data on client side, using cookies / localStorage / sessionStorage
+		e. make an REST APi Calls using a browser method - Fetch 
+		f. create something like a programming experience
+			Please note: JS is not a programming language
+					It is a scripting language - not compiled
+
+		g. JS is case sensitive and follows camelCase
+		h. this is a standard language maintained by W3C and all the browsers does follow them 
+		I. we use <script> </script> for JS
+		J. JS can manipulate / change HTML and CSS both
+		k. JS does not have OOPS support, no classes, data types

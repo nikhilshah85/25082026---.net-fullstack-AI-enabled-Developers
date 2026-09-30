@@ -1,0 +1,47 @@
+
+
+{
+	empNo:101,
+	empName:'Nikhil',
+	empDesignation:'Consultant',
+	empCity:'Mumbai',
+	empLastName:'Shah'
+	empEmail:'nikhilshah.net@hotmail.com'
+}
+
+--------------
+	Post
+		{empNo:101, empEmail:'nikhil@somewhere.com'} ==sent to server
+
+	what will happen,  the object will not look like this
+	
+			{
+				empNo:101,
+				empName:string,
+				empDesignation:string,
+				empCity:string,
+				empLastName:string
+				empEmail:'nikhil@somewhere.com'
+			}
+	
+
+	patch
+		{
+	empNo:101,
+	empName:'Nikhil',
+	empDesignation:'Consultant',
+	empCity:'Mumbai',
+	empLastName:'Shah'
+	empEmail:'nikhil@somewhere.com'
+}
+
+
+
+
+
+
+
+
+
+
+
