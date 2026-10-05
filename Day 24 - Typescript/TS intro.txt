@@ -1,0 +1,112 @@
+			
+
+				JavaScript
+
+	a. OOPS - no object oriented feature
+	b. data types 
+	c. it is a scripting language, line by line execution 
+	d. slow, not compatible with all the hardware
+
+			W3C is the governing body 
+
+			at the same time, ECMA came out with a scripting language which did not had any of the above problems - language - ES6 which was 
+						OOPS based
+						semi-compiled
+						data types
+						very fast 
+			European Computer Manufacturing Association 
+		then in 2018 - W3C and ECMA collaborated to make JS equally stronger
+
+				this was great, with only 1 challenge- Syntax
+			public class Emp
+			{
+				props and methods and constructors
+			}
+		
+			ES
+			var Emp = function() => { }
+			emp.protototype.function()=> {
+				e.empNo set 401;
+			}
+
+			thus developers and companies did not took a risk to go for it
+
+
+			Thus Microsoft came up with a solution,
+				since ES is already tested, has a success and makes a difference to JS
+				they did,
+					 put a wrapper around the language
+					and gave us a compiler
+			so that developers can still code in C#, Java or python way, 
+				when they compile, compiler will convert the code into ES
+
+		
+Your Code --> Compiler --> transpile(convert from TS to ES) --> Compile(check for errors/warning etc..) ->													JS
+
+
+
+
+
+			FB - Google - MS - Twitter they took advantage of this new language
+			and created web frameworks for creating light weight SPA application 
+
+				FB - React - to create a web app
+				Google - Angular - to create a web app
+				Twitter - Bootstrap (this is a UI library) - to be used in web apps
+
+			other frameworks which are not popular but are still used
+				Backbone
+				Knockout etc..
+			More over, Unit testing and UI testing frameworks also evolved
+				Mocha
+				Jasmine, Karma etc...
+-----------------------------------------------------------------------------------------------						React - Angular they created - Virtual DOM 
+
+			1. Install Node
+			2. Install TS on Node
+		here u get to know how to use Node and what is NPM and how to install packages or tools or 			compilers
+		
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+			
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

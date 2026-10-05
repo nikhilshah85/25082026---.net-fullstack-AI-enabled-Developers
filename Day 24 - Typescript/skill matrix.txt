@@ -1,0 +1,61 @@
+
+
+
+
+
+			Take a short break : 15 mins 
+			join back and study
+
+		https://www.w3schools.com/typescript/
+
+
+Web Technologies
+React/Angular
+REST API Development
+HTML 5
+CSS 3
+Javascript
+TypeScript
+
+Database
+SQL Server
+Entity Framework
+
+Programming
+.Net core 10
+C# with strong OOPS
+Typescript
+SOLID Principles
+Node
+------------------------------------------------------------------------
+AI 
+AI Pipeline
+Prompt Engineering
+Anthropic - ChatGPT
+Code AI - For generating Code 
+
+
+					Anthropic is an organization
+							Claude
+							  
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
