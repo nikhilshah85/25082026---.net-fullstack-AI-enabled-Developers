@@ -1,0 +1,32 @@
+To operate services for Azure account
+Options
+
+1. Azure portal 
+2. to download Azure CLI (command line interface, and you can fire powershell scripts) to do anything
+3. you can use cloudshell to execute poweshell script
+		when you want to automate, or bulk create, update, delete resources, give permissions, rights
+		roles etc... u can use powershell 
+
+-------------------------------------------
+Account
+	Subscription (you can have multiple subscriptions for account)
+		     Resource Group (this is the drving force for your resource)
+			RG - is like a package/bundle which will group all the parts of your service
+
+				eg. Virtual Machine is made up of 
+					Disk	
+					Network
+					RAM
+					CPUS
+					security unit like firewall
+					scheduler (eg. shut down the machine at 6:00 PM EST everday)
+					etc....
+			1. resource group can have multiple vms, databases, storage accounts etc..
+
+
+			if you wish to delete everything, just delete the resource group
+			if you wish to setup a spending limit set it at a resource group 
+
+
+
+			

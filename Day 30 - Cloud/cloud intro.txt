@@ -1,0 +1,53 @@
+
+
+
+
+				Cloud - Azure 
+
+		This is where, we rent hardware (disk-storage, compute - virtual machine, database, web servers - app service, microservices, Kubernetes (clusters, group of machines) - network, vpns, etc.....
+		active directory (Entra Ids)
+		more than 200+ such services
+
+
+		AWS
+		Google
+		Microsoft
+		Oracle 
+		HP/IBM etc......
+			
+			they buy big land, and build building, put there hardware to run there, 
+			this buildings needs, continuous powersupply, cooling, etc.....
+
+			this area where they build this is called as a Data Center
+			
+		Microsoft has more than 100 data centers across the world
+	-------------- we need to connect to this datacenter, from our account and based on what roles are available to us, we will create / access / delete / modify resources
+
+			for the same, you need a subscription, 
+
+		in ur organization, cognizant will provide you the subscription 
+
+		but for here, u will have to use your own credit card and get the subscription, 
+			for first month (30 days, you get 200$ credit to create and try the resources)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+		
+
+	
+
+		
+
+			

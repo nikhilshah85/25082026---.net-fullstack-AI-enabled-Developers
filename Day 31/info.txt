@@ -1,0 +1,20 @@
+1. Mock on 15th - first 6 weeks (no testing)
+2. P0 on Friday
+3. P1 on 23rd - project we will talk about next
+	this is a 3 tier full stack .net application hosted on Cloud
+
+	tiers
+	1. Database - u know how to host it on cloud
+	2. WebAPI - u know how to connect it with the data hosted on cloud, just connect there and test ur crud operations
+	I will show u how to host it on cloud - test it today itself
+
+	3. front end - Angular or react, which is a SPA application, will have components
+				 interacting with WebAPI (use HttpClient for Ng and Fetch/axios for React)
+				 also need to implement JWT token here	
+		(I will show u how to host it, unfortunately, you did not create a personal portifolio, I would showd u this right away)
+			
+
+
+4. client interviews starting from 20th - yet to receive the schedule
+
+---------
