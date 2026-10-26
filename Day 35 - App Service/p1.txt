@@ -1,0 +1,13 @@
+Hi I am sneh Patel from AI Augemented .net cohort,
+
+I am doing this presentation for BU Name, I went through the training for first 3 weeks
+and I learned C# .net,  with SQL Server and entity framework and have created a full stack console application 
+
+and then the presentation 
+
+
+1. hackerrank
+2. interview
+3. P2
+4. P1 - do it in ur free time - submit this as soon as P2 is over
+and then the recording

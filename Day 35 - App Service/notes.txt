@@ -1,0 +1,13 @@
+
+
+
+
+				Azure : services
+						Resource group
+						Virtual Machines (compute)
+						Databases (SQL Server / SQL Database)
+						App Service : Web Contents 
+								(Static websites, REST API(webapi), 									Angular/React, Mobile App and more)
+							we will want to see, 
+							1. how to host webapi (also 										   interacting with SQL database on azure)
+							2. Angular / React applications

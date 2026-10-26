@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HHsjG9BLJqk=",
+  "dgSpecHash": "pEB5RpjY8bY=",
   "success": true,
-  "projectFilePath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 18 - EF WEBAPI\\shopDBAPI\\shopDBAPI.csproj",
+  "projectFilePath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 18 - EF WEBAPI and DI\\shopDBAPI\\shopDBAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\nikhi\\.nuget\\packages\\azure.core\\1.50.0\\azure.core.1.50.0.nupkg.sha512",
     "C:\\Users\\nikhi\\.nuget\\packages\\azure.identity\\1.17.1\\azure.identity.1.17.1.nupkg.sha512",
@@ -142,9 +142,9 @@
       "code": "NU1901",
       "level": "Warning",
       "message": "Package 'NuGet.Packaging' 6.12.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
-      "projectPath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 18 - EF WEBAPI\\shopDBAPI\\shopDBAPI.csproj",
+      "projectPath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 18 - EF WEBAPI and DI\\shopDBAPI\\shopDBAPI.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 18 - EF WEBAPI\\shopDBAPI\\shopDBAPI.csproj",
+      "filePath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 18 - EF WEBAPI and DI\\shopDBAPI\\shopDBAPI.csproj",
       "libraryId": "NuGet.Packaging",
       "targetGraphs": [
         "net10.0"
@@ -154,10 +154,34 @@
       "code": "NU1901",
       "level": "Warning",
       "message": "Package 'NuGet.Protocol' 6.12.1 has a known low severity vulnerability, https://github.com/advisories/GHSA-g4vj-cjjj-v7hg",
-      "projectPath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 18 - EF WEBAPI\\shopDBAPI\\shopDBAPI.csproj",
+      "projectPath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 18 - EF WEBAPI and DI\\shopDBAPI\\shopDBAPI.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 18 - EF WEBAPI\\shopDBAPI\\shopDBAPI.csproj",
+      "filePath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 18 - EF WEBAPI and DI\\shopDBAPI\\shopDBAPI.csproj",
       "libraryId": "NuGet.Protocol",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "message": "Package 'System.Security.Cryptography.Pkcs' 9.0.11 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-2fmv-rv2c-59x7",
+      "projectPath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 18 - EF WEBAPI and DI\\shopDBAPI\\shopDBAPI.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 18 - EF WEBAPI and DI\\shopDBAPI\\shopDBAPI.csproj",
+      "libraryId": "System.Security.Cryptography.Pkcs",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'System.Security.Cryptography.Pkcs' 9.0.11 has a known high severity vulnerability, https://github.com/advisories/GHSA-846f-f764-76mx",
+      "projectPath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 18 - EF WEBAPI and DI\\shopDBAPI\\shopDBAPI.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 18 - EF WEBAPI and DI\\shopDBAPI\\shopDBAPI.csproj",
+      "libraryId": "System.Security.Cryptography.Pkcs",
       "targetGraphs": [
         "net10.0"
       ]

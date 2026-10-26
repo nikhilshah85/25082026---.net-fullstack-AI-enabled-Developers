@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 18 - EF WEBAPI\\shopDBAPI\\shopDBAPI.csproj": {}
+    "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 18 - EF WEBAPI and DI\\shopDBAPI\\shopDBAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 18 - EF WEBAPI\\shopDBAPI\\shopDBAPI.csproj": {
+    "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 18 - EF WEBAPI and DI\\shopDBAPI\\shopDBAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 18 - EF WEBAPI\\shopDBAPI\\shopDBAPI.csproj",
+        "projectUniqueName": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 18 - EF WEBAPI and DI\\shopDBAPI\\shopDBAPI.csproj",
         "projectName": "shopDBAPI",
-        "projectPath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 18 - EF WEBAPI\\shopDBAPI\\shopDBAPI.csproj",
+        "projectPath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 18 - EF WEBAPI and DI\\shopDBAPI\\shopDBAPI.csproj",
         "packagesPath": "C:\\Users\\nikhi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 18 - EF WEBAPI\\shopDBAPI\\obj\\",
+        "outputPath": "C:\\Users\\nikhi\\OneDrive\\Desktop\\25082026---.net-fullstack-AI-enabled-Developers\\Day 18 - EF WEBAPI and DI\\shopDBAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

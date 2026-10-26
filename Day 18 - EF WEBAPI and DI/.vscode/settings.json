@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/6b77b18c-1981-4696-8328-698b5886e725/resourceGroups/appsvc_windows_ukwest_basic/providers/Microsoft.Web/sites/newshopnikhil",
+    "appService.deploySubpath": "shopDBAPI\\bin\\Release\\net10.0\\publish"
+}

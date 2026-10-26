@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("shopDBAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+985e88e6aa94fdc45b6571d45d8dcab3d6b1025a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eef12cf4253483bffd2655397d2b510768cf6e6d")]
 [assembly: System.Reflection.AssemblyProductAttribute("shopDBAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("shopDBAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

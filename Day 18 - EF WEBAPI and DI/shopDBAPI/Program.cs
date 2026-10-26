@@ -12,13 +12,13 @@ builder.Services.AddSwaggerGen();
 
 
 //Per call
-builder.Services.AddTransient(typeof(shopDBAPI.Models.EF.ShoppingDbContext));
+// builder.Services.AddTransient(typeof(shopDBAPI.Models.EF.ShoppingDbContext));
 
 //per session
 builder.Services.AddScoped(typeof(shopDBAPI.Models.EF.ShoppingDbContext));
 
-//Per application, single object for all the users
-builder.Services.AddSingleton(typeof(shopDBAPI.Models.EF.ShoppingDbContext));
+// //Per application, single object for all the users
+// builder.Services.AddSingleton(typeof(shopDBAPI.Models.EF.ShoppingDbContext));
 
 
 builder.Services.AddDbContext<ShoppingDbContext>(options =>
@@ -29,10 +29,10 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
-    app.UseSwagger();
-    app.UseSwaggerUI();
+  
 }
-
+  app.UseSwagger();
+app.UseSwaggerUI();
 app.UseHttpsRedirection();
 
 var summaries = new[]

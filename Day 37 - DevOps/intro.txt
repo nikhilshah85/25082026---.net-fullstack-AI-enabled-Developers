@@ -1,0 +1,21 @@
+
+
+						Automation
+
+
+developers machine (You)
+		  	---> Code a lot
+					---> VCS (git, bitbucket,teams foundation server, SVN,
+					automation storage + VSC - MS DevOps Repo - Jenkins - AWS)
+
+
+-----------------------------------------------------------------------------------
+		1. This code is developed on Windows 11 machine 
+		2. code is in text format on VSC
+lets say this is an mobile application / console app
+			the app needs to run end users machine, which may not be windows
+			it could be Mac, Android, Linux
+
+	thus our code needs to be compiled for that environment 
+	so we need a system(software/runtime) which will compile the code for various environments
+		

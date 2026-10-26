@@ -10,14 +10,10 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.MapOpenApi();
-    app.UseSwagger(); //this is called middleware
+
+app.MapOpenApi();
+ app.UseSwagger(); //this is called middleware
     app.UseSwaggerUI(); //this is another middleware
-
-}
-
 
 
 app.UseHttpsRedirection();
@@ -25,5 +21,5 @@ app.UseHttpsRedirection();
 app.UseAuthorization();
 
 app.MapControllers();
-
+app.MapGet("/", () => "ASP.NET Core 10 API running on Azure!");
 app.Run();

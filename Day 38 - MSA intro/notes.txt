@@ -1,0 +1,135 @@
+
+
+
+
+2 training topics are left
+a. Microservices (this is imp for your project 3) - docker and Kubernetes
+
+	1. 
+	developers machine ---> create an image ---> test it in a container ---> push it to image repo
+										(dockerhub/ACR) ---> K8
+												kubernetes
+	2. docker compose (this is a .yaml config file)
+
+	3. know about MS design patterns						
+		
+b. python and python for AI
+	
+b. P3 (this is for global revature and for global client(cognizant))
+
+
+QC tomorrow 27th Oct - Azure 
+QC on on 03 or 05th Nov for Microservie(MSA) and Python 
+
+P3 presentation on - 06th Nov 
+---------------------------------------------------------------------------------------------------------
+
+	About P3 - group project
+		3 layers all hosted on Azure cloud
+
+	Front end (angular/react) - running as a microservice app 
+	Middleware (ASP.net web api / node) - running as a microservice app
+	Database (SQL Server)  - running as a Azure sql database (if you wish to have it as MS - its fine)
+
+	all the 3 components clubbed by docker-compose file
+
+	and hosted on Kubernetes service
+
+We used App service - this is a single stand alone server
+for enterprise application - we need cluster environment - group of servers (app servers in our case) 
+
+	-----------------------
+		What is Auto scale - and what are the types ? - this is cloud fundamental
+			
+		when the load on the server increases it needs more hardware
+
+			so cloud says, it will automatically increase the hardware
+
+				there are 2 approaches to this
+
+			lets upgrade my laptop from 16GB to 24/32 gb
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+		every microservice application - has a config file called as .dockerfile
+			this container application information like
+				which language  - c#
+				which framework - .net core 10.0
+				platform - windows / Linux / max
+				etc....
+
+
+			here we have 3 apps - meaning 3 dockerfile
+
+		we need a single file, which will allow us to group all the 3 apps as 1
+			will have information about
+				how they communicate to eachother, so it creates a network for communication
+				sequence of starting and shutting down the application 
+				access point of this application
+
+			and 2 simple commands with docker-componse
+			docker-compose --up (this will start all the 3 apps, based on sequence mentioned, create network etc..)
+			docker-compose --down (this will stop the network, shut down all the applications)
+
+--------------------------------------------------------------------------------------------------------------------------
+
+		what is a microservice 
+			break down your big application into small applications
+			modules of your application into small applications (microservice)
+
+			the application you have created so far in last 6 weeks is called as monolithic application
+			monolithic  - all the functionality of project is in in 1 app
+
+		as a developer, write your code the way you have been doing.
+			and then create an .exe from it
+
+		in microservice
+		---we create image (image is like a box, which contains ur code and runtime - for .net -- .exe and clr)
+			--for angular / react (it will have components, framework, packages)
+
+		--and then we test it - in a container 
+
+		-- once we test - we push it to repository (dockerhub - public repo / azure container registry - private repo)
+
+		-- from repo - it is deployed to cluster (K8) - here it runs in a pod(container)
+
+		you need to learn - commands on how to build an image, run it in a container, push it to repo
+
+
+
+
+
+
+
+
+
+
+		
+			
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	

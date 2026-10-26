@@ -1,0 +1,12 @@
+git push
+	it should go to git
+		from there automatically, code should get compiled(build) in various environments of my choice
+
+
+	this should keep happening continuously, for new files which are sent to git
+
+------------------------------------------------------------
+			DevOps Engineer - the top boss for automation 
+
+		devOps platform also integrated with all the other platforms like
+			JIRA 
