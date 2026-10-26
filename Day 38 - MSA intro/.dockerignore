@@ -1,0 +1,7 @@
+# Files Docker should NOT send to the build context
+Dockerfile
+.dockerignore
+*.pptx
+*.txt
+*.png
+.git

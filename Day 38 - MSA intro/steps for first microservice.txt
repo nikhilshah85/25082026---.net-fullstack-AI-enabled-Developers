@@ -1,0 +1,19 @@
+1. after you finish your application development,
+2. add a .dockerfile to your application, add the contents
+3. build the image of the application - docker build . firstImageName:versionnumber
+4. run it in the container - docker run -d firstImageName:versionnumber --port 8099:80
+5. open browser and localhost:8099
+ --
+
+6. login to docker - docker login
+7. create a copy of your image, with the name format of dockerid/imagename_to_be_displayed_on_repo:versionno
+8. docker push dockerid/imagename_to_be_displayed_on_repo:versionno
+
+9. any1 can now say docker pull nikhilshahdocker/shopease-web:v1
+10. check - docker images
+11. lets run the image on ur machine as well 
+	docker run -d -p 9999:80 --name shopease nikhilshahdocker/shopease-web:v1
+
+12. open browser and test the application localhost:9999
+------------------------------------
+before lunch - practice everything, create your first microservice image and publish it to docker hub

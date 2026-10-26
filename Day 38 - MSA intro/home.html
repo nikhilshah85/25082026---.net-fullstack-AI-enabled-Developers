@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ShopEase - discover trending fashion, electronics and home essentials at great prices.">
+    <title>ShopEase | Shop the Latest Trends</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ===== Top announcement bar ===== -->
+    <div class="announcement">
+        Free shipping on orders over $50 &nbsp;|&nbsp; New arrivals every week
+    </div>
+
+    <!-- ===== Navbar ===== -->
+    <header class="navbar">
+        <div class="container nav-inner">
+            <a href="home.html" class="logo">Shop<span>Ease</span></a>
+
+            <nav class="nav-links" id="navLinks">
+                <a href="#categories">Categories</a>
+                <a href="#products">Products</a>
+                <a href="#features">Why Us</a>
+                <a href="#reviews">Reviews</a>
+                <a href="#newsletter">Newsletter</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="icon-btn" id="searchToggle" aria-label="Search">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+                </button>
+                <a href="#" class="icon-btn cart-btn" aria-label="Cart">
+                    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 6h15l-1.5 9h-12z"/><path d="M6 6L5 3H2"/><circle cx="9" cy="20" r="1.5"/><circle cx="18" cy="20" r="1.5"/></svg>
+                    <span class="cart-count" id="cartCount">0</span>
+                </a>
+                <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+                    <span></span><span></span><span></span>
+                </button>
+            </div>
+        </div>
+
+        <form class="search-bar" id="searchBar" role="search">
+            <div class="container">
+                <input type="search" id="searchInput" placeholder="Search for shoes, watches, headphones..." aria-label="Search products">
+            </div>
+        </form>
+    </header>
+
+    <main>
+        <!-- ===== Hero ===== -->
+        <section class="hero">
+            <div class="container hero-inner">
+                <div class="hero-text reveal">
+                    <span class="badge">New Season 2026</span>
+                    <h1>Style that <span class="gradient-text">moves</span> with you.</h1>
+                    <p>Discover curated fashion, cutting-edge electronics and home essentials, all in one place. Shop the latest trends at prices you'll love.</p>
+                    <div class="hero-buttons">
+                        <a href="#products" class="btn btn-primary">Shop Now</a>
+                        <a href="#categories" class="btn btn-ghost">Browse Categories</a>
+                    </div>
+                    <div class="hero-stats">
+                        <div><strong>50K+</strong><span>Happy customers</span></div>
+                        <div><strong>1,200+</strong><span>Products</span></div>
+                        <div><strong>4.8&#9733;</strong><span>Average rating</span></div>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal">
+                    <img class="hero-img main"
+                         src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=900&q=80"
+                         alt="Stylish wristwatch"
+                         onerror="this.style.display='none'">
+                    <img class="hero-img float"
+                         src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=500&q=80"
+                         alt="Wireless headphones"
+                         onerror="this.style.display='none'">
+                    <div class="floating-card">
+                        <span class="dot"></span>
+                        <div>
+                            <strong>Free delivery</strong>
+                            <small>Orders over $50</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Categories ===== -->
+        <section class="section" id="categories">
+            <div class="container">
+                <div class="section-head reveal">
+                    <span class="eyebrow">Browse</span>
+                    <h2>Shop by category</h2>
+                </div>
+
+                <div class="category-grid">
+                    <a href="#products" class="category-card c1 reveal" data-category="Fashion">
+                        <div class="cat-icon">&#128085;</div>
+                        <h3>Fashion</h3>
+                        <p>Clothing &amp; accessories</p>
+                    </a>
+                    <a href="#products" class="category-card c2 reveal" data-category="Footwear">
+                        <div class="cat-icon">&#128095;</div>
+                        <h3>Footwear</h3>
+                        <p>Sneakers, boots &amp; more</p>
+                    </a>
+                    <a href="#products" class="category-card c3 reveal" data-category="Electronics">
+                        <div class="cat-icon">&#127911;</div>
+                        <h3>Electronics</h3>
+                        <p>Audio, gadgets &amp; wearables</p>
+                    </a>
+                    <a href="#products" class="category-card c4 reveal" data-category="Home">
+                        <div class="cat-icon">&#127968;</div>
+                        <h3>Home &amp; Living</h3>
+                        <p>Decor &amp; everyday essentials</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Featured products ===== -->
+        <section class="section alt" id="products">
+            <div class="container">
+                <div class="section-head split reveal">
+                    <div>
+                        <span class="eyebrow">Trending now</span>
+                        <h2>Featured products</h2>
+                    </div>
+                    <div class="filter-tabs" id="filterTabs">
+                        <button class="tab active" data-filter="All">All</button>
+                        <button class="tab" data-filter="Fashion">Fashion</button>
+                        <button class="tab" data-filter="Footwear">Footwear</button>
+                        <button class="tab" data-filter="Electronics">Electronics</button>
+                        <button class="tab" data-filter="Home">Home</button>
+                    </div>
+                </div>
+
+                <div class="product-grid" id="productGrid">
+                    <!-- Product cards are rendered by script.js -->
+                </div>
+                <p class="empty-msg" id="emptyMsg" hidden>No products match your search.</p>
+            </div>
+        </section>
+
+        <!-- ===== Promo banner ===== -->
+        <section class="promo">
+            <div class="container promo-inner reveal">
+                <div>
+                    <span class="eyebrow light">Limited offer</span>
+                    <h2>Up to 40% off end-of-season sale</h2>
+                    <p>Hurry, these deals won't last long. Use code <strong>SHOP40</strong> at checkout.</p>
+                    <a href="#products" class="btn btn-light">Grab the deals</a>
+                </div>
+                <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=800&q=80"
+                     alt="Shopping bags"
+                     onerror="this.style.display='none'">
+            </div>
+        </section>
+
+        <!-- ===== Features ===== -->
+        <section class="section" id="features">
+            <div class="container">
+                <div class="section-head center reveal">
+                    <span class="eyebrow">Why ShopEase</span>
+                    <h2>Shopping made simple</h2>
+                </div>
+
+                <div class="feature-grid">
+                    <div class="feature reveal">
+                        <div class="feature-icon">&#128666;</div>
+                        <h3>Fast Delivery</h3>
+                        <p>Get your orders delivered in 2-3 business days, anywhere in the country.</p>
+                    </div>
+                    <div class="feature reveal">
+                        <div class="feature-icon">&#8634;</div>
+                        <h3>Easy Returns</h3>
+                        <p>Changed your mind? Return any item within 30 days, no questions asked.</p>
+                    </div>
+                    <div class="feature reveal">
+                        <div class="feature-icon">&#128274;</div>
+                        <h3>Secure Payments</h3>
+                        <p>Your payment details are encrypted and protected at every step.</p>
+                    </div>
+                    <div class="feature reveal">
+                        <div class="feature-icon">&#127873;</div>
+                        <h3>Member Rewards</h3>
+                        <p>Earn points on every purchase and unlock exclusive discounts.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Reviews ===== -->
+        <section class="section alt" id="reviews">
+            <div class="container">
+                <div class="section-head center reveal">
+                    <span class="eyebrow">Testimonials</span>
+                    <h2>Loved by our customers</h2>
+                </div>
+
+                <div class="review-grid">
+                    <figure class="review reveal">
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <blockquote>"Super fast delivery and the quality is amazing. The headphones sound incredible for the price."</blockquote>
+                        <figcaption><span class="avatar a1">A</span> Ananya R.</figcaption>
+                    </figure>
+                    <figure class="review reveal">
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        <blockquote>"I found my favourite sneakers here. The checkout was smooth and the sizing guide was spot on."</blockquote>
+                        <figcaption><span class="avatar a2">M</span> Marcus L.</figcaption>
+                    </figure>
+                    <figure class="review reveal">
+                        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                        <blockquote>"Great variety and lovely home decor pieces. Returns were hassle-free when one item didn't fit."</blockquote>
+                        <figcaption><span class="avatar a3">S</span> Sofia K.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+        <!-- ===== Newsletter ===== -->
+        <section class="newsletter" id="newsletter">
+            <div class="container newsletter-inner reveal">
+                <h2>Get 10% off your first order</h2>
+                <p>Subscribe to our newsletter for exclusive deals, new arrivals and style tips.</p>
+                <form class="subscribe-form" id="subscribeForm" novalidate>
+                    <input type="email" id="emailInput" placeholder="Enter your email address" aria-label="Email address" required>
+                    <button type="submit" class="btn btn-primary">Subscribe</button>
+                </form>
+                <small class="form-msg" id="formMsg"></small>
+            </div>
+        </section>
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <a href="home.html" class="logo light">Shop<span>Ease</span></a>
+                <p>Your one-stop destination for trending fashion, tech and home essentials.</p>
+            </div>
+            <div>
+                <h4>Shop</h4>
+                <a href="#categories">Categories</a>
+                <a href="#products">New Arrivals</a>
+                <a href="#products">Sale</a>
+            </div>
+            <div>
+                <h4>Help</h4>
+                <a href="#">Shipping</a>
+                <a href="#">Returns</a>
+                <a href="#">Contact Us</a>
+            </div>
+            <div>
+                <h4>Follow us</h4>
+                <div class="socials">
+                    <a href="#" aria-label="Facebook">f</a>
+                    <a href="#" aria-label="Instagram">&#9675;</a>
+                    <a href="#" aria-label="Twitter">&#120143;</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; <span id="year"></span> ShopEase. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- Toast notification -->
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
