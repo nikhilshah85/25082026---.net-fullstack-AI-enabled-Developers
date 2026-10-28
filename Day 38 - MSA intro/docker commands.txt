@@ -1,0 +1,16 @@
+docker --version
+docker images(view the list of images)
+docker ps (view the list of containers)
+docker build (build an image)
+docker rm containerid(stop and remove the container)
+docker rmi imageid (delete the image)
+docker pull devlopername/dockerimagename:version (if you do not specify version It will pull the latest by default)
+docker push url (where do u want to push)
+
+----------
+first application - first image
+	what will this have ?
+		your app (.net / java / angular / react ...anything)
+	+ docker file
+---
+	once you have this, docker build

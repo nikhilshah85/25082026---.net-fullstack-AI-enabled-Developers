@@ -1,0 +1,49 @@
+
+
+
+1. Front end, you already have this, add a docker file to this and convert it to an image
+	and host it on dockerhub (in team member 1s account)
+	try : Azure Container Registry (
+
+2. Middlware : this will use EF, connect to container,which is hosting sql server, and test with swagger
+	(but for this, step 3 must be completed), 
+	add a dockerfile to this and make it an image, test in a container, pust it to docker hub
+	(in team member 2nd's account)
+
+
+3. Backend : sql server running in a container
+		pull sql server image and, connect to it from ssms, and create tables etc....
+		(in team member 3rd account)
+------------------------------
+	once this is done, we will create a dockercompose file, which will map everything in 1 file
+		and we a done
+-----------------------------------------------------------------------------------------------------------
+
+		Purpose of P3 :
+			team communication
+			team building
+			collaborating and gelling up with team members
+			distribution of task
+			coordination of work and task
+			taking responsibility 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
